@@ -1,0 +1,7 @@
+.App {
+  background-color: blue;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 13fr 1fr 20fr 1fr;
+}
