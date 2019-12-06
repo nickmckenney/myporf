@@ -1,16 +1,17 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import NavBar from "./NavBar.js";
+import NavBar from "./NarBar.js";
 import Projects from "./Projects.js";
-
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Projects />
-    </div>
-  );
+import { render } from "@testing-library/react";
+import ReactDOM from "react-dom";
+export default class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <NavBar />
+        <Projects />
+      </div>
+    );
+  }
 }
-
-export default App;
