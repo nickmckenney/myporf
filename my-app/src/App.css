@@ -14,6 +14,80 @@
   background-color: green;
 }
 .projects {
-  background-color: red;
   box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px;
+}
+.projectCoTripper {
+  grid-row: 3;
+}
+.projectTowerOfHanoi {
+  grid-row: 1;
+}
+
+.projectGovernmentFundingAPI {
+  grid-row: 2;
+}
+.projectCalaendarMern {
+  grid-row: 4;
+}
+.FrontSideTower {
+  background-image: url("./Tower.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.BacksideProject {
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.BackSideTower {
+  background-image: url("./Tower.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 25vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-120%, -60%);
+  top: 25%;
+}
+li {
+  text-decoration: none;
+}
+.summaryProject {
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  top: 15%;
+  font-size: 20px;
+}
+.points {
+  position: relative;
+  top: 2%;
+  font-size: 25px;
+  left: 50%;
+  display: flex;
+}
+.navLink {
+  border: 3px solid brown;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-content: space-between;
+}
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h1 {
+  font-size: 20px;
+  margin-top: -20px;
 }

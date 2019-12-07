@@ -1,74 +1,15 @@
 import React, { Component } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
-import Rick from "./160px-Rick_Sanchez.png";
+import Github from "./github-brands.svg";
+import View from "./eye-solid.svg";
+
 import "./App.css";
-
+import TowerOfHanoi from "./Tower.png";
 const FlippyStyle = {
-  width: "200px",
-  height: "300px",
   textAlign: "center",
-  color: "#FFF",
-  fontFamily: "sans-serif",
-  fontSize: "30px",
-  justifyContent: "center"
+  justifyContent: "center",
+  height: "60vh"
 };
-
-const DefaultCardContents = ({ children }) => (
-  <React.Fragment>
-    <FrontSide
-      style={{
-        backgroundColor: "#41669d",
-        display: "flex",
-        alignItems: "center",
-        flexDirection: "column"
-      }}
-    >
-      <img src={Rick} style={{ maxWidth: "100%", maxHeight: "100%" }} />
-      RICK
-      <span
-        style={{
-          fontSize: "12px",
-          position: "absolute",
-          bottom: "10px",
-          width: "100%"
-        }}
-      >
-        {children}
-        <br />
-        (FRONT SIDE)
-      </span>
-    </FrontSide>
-    <BackSide
-      style={{
-        backgroundColor: "#175852",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        flexDirection: "column"
-      }}
-    >
-      ROCKS
-      <span
-        style={{
-          fontSize: "12px",
-          position: "absolute",
-          bottom: "10px",
-          width: "100%"
-        }}
-      >
-        {children}
-        <br />
-        (BACK SIDE)
-      </span>
-    </BackSide>
-  </React.Fragment>
-);
-
-const FlippyOnHover = ({ flipDirection = "vertical" }) => (
-  <Flippy flipOnHover={true} flipDirection={flipDirection} style={FlippyStyle}>
-    <DefaultCardContents>I flip {flipDirection}ly on hover</DefaultCardContents>
-  </Flippy>
-);
 
 class App extends Component {
   constructor(props) {
@@ -87,22 +28,110 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div
-          style={{
-            display: "flex",
-            flex: "1 0 200px",
-            justifyContent: "space-around",
-            "flex-wrap": "wrap"
-          }}
-        >
-          <Flippy
-            ref={r => (this.flippyHorizontal = r)}
-            flipOnClick={false}
-            style={FlippyStyle}
-          ></Flippy>
-          <FlippyOnHover />
+        <div className="ProjectsContainer">
+          <div class="projects projectTowerOfHanoi">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"horizantal"}
+              style={FlippyStyle}
+            >
+              <React.Fragment>
+                <FrontSide>
+                  <div className="FrontSideTower"></div>
+                </FrontSide>
+                <BackSide>
+                  <div className="BacksideProject">
+                    <img className="BackSideTower" src={TowerOfHanoi} />
+                    <div className="points">
+                      <span>
+                        Accomplishments
+                        <div>
+                          <li>Point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                        </div>
+                      </span>
+                      <br></br>
+                      <span>
+                        Technologies
+                        <div>
+                          <li>Point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                        </div>
+                      </span>
+                    </div>
+
+                    <div className="summaryProject">
+                      <h1>Summary </h1>
+                      Why is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsddddddd
+                      <br></br> <br></br> <br></br> <br></br>
+                      <nav className="navLink">
+                        <img src={Github} />
+                        <img src={View} />
+                      </nav>
+                    </div>
+                  </div>
+                </BackSide>
+              </React.Fragment>
+            </Flippy>
+          </div>
+          <div class="projects projectGovernmentFundingAPI">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"horizantal"}
+              style={FlippyStyle}
+            >
+              <React.Fragment>
+                <FrontSide>
+                  <div className="FrontSideTower"></div>
+                </FrontSide>
+                <BackSide>
+                  <div className="BacksideProject">THIS IS TOWER OF HANOI</div>
+                </BackSide>
+              </React.Fragment>
+            </Flippy>
+          </div>
+          <div class="projects projectCalaendarMern">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"horizantal"}
+              style={FlippyStyle}
+            >
+              <React.Fragment>
+                <FrontSide>
+                  <div className="FrontSideTower"></div>
+                </FrontSide>
+                <BackSide>
+                  <div className="BacksideProject">THIS IS TOWER OF HANOI</div>
+                </BackSide>
+              </React.Fragment>
+            </Flippy>
+          </div>
+          <div class="projects projectCoTripper">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"horizantal"}
+              style={FlippyStyle}
+            >
+              <React.Fragment>
+                <FrontSide>
+                  <div className="FrontSideTower"></div>
+                </FrontSide>
+                <BackSide>
+                  <div className="BacksideProject">THIS IS TOWER OF HANOI</div>
+                </BackSide>
+              </React.Fragment>
+            </Flippy>
+          </div>
         </div>
-        //{" "}
       </div>
     );
   }
