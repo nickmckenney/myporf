@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
-import Rick from "./160px-Rick_Sanchez.png";
 import "./App.css";
 export default class Projects extends React.Component {
   render() {

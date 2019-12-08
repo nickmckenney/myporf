@@ -5,12 +5,30 @@ import View from "./eye-solid.svg";
 
 import "./App.css";
 import TowerOfHanoi from "./Tower.png";
+// function windowsizer(x) {
+//   var x = window.matchMedia("(max-width: 530px)");
+
+//   if (x.matches) {
+//     const FlippyStyle = {
+//       textAlign: "center",
+//       justifyContent: "center",
+//       height: "60vh"
+//     };
+//   } else {
+//     const FlippyStyle = {
+//       textAlign: "center",
+//       justifyContent: "center",
+//       height: "60vh"
+//     };
+//   }
+// }
+// x.addListener(windowsizer);
+// windowsizer();
 const FlippyStyle = {
   textAlign: "center",
   justifyContent: "center",
   height: "60vh"
 };
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -52,7 +70,8 @@ class App extends Component {
                           <li>point2</li>
                         </div>
                       </span>
-                      <br></br>
+                      <div className="br"></div>
+
                       <span>
                         Technologies
                         <div>

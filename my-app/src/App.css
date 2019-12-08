@@ -59,18 +59,17 @@
   transform: translate(-120%, -60%);
   top: 25%;
 }
-li {
-  text-decoration: none;
+.summaryProject,
+.points {
+  position: relative;
 }
 .summaryProject {
   margin-left: 10%;
   margin-right: 10%;
-  position: relative;
-  top: 15%;
+  top: 20%;
   font-size: 20px;
 }
 .points {
-  position: relative;
   top: 2%;
   font-size: 25px;
   width: 10%;
@@ -79,18 +78,196 @@ li {
   flex-direction: row;
 }
 .navLink {
-  border: 3px solid brown;
   width: 100%;
   height: 10vh;
   display: flex;
   align-content: space-between;
 }
 span {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.505vw;
+  margin-right: 0.505vw;
 }
 h1 {
-  font-size: 20px;
+  font-size: 1.01vw;
   margin: auto 0;
   margin-top: -20px;
+}
+.br {
+  margin-left: 50px;
+}
+@media screen and (max-width: 1350px) {
+  .points {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .ProjectsContainer {
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .NavBarContainer {
+    width: 100%;
+    height: 10vh;
+    z-index: 20;
+  }
+  .points {
+    font-size: 25px;
+  }
+  span {
+    margin-right: 4.545vw;
+  }
+}
+@media screen and (max-width: 911px) {
+  .points {
+    font-size: 20px;
+  }
+  .summaryProject {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .points {
+    font-size: 20px;
+    width: 25%;
+  }
+  span {
+    margin-left: 60px;
+  }
+  .br {
+    margin: 0 auto;
+  }
+  .summaryProject {
+    margin-top: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navLink {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .points {
+    margin-top: 25px;
+  }
+  span {
+    margin-right: 5px;
+    font-size: 2.409vw;
+  }
+  .summaryProject {
+    margin-top: -10px;
+  }
+  .navLink {
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .summaryProject {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .navLink {
+    margin-top: -15px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .BackSideTower {
+    display: none;
+  }
+  .points {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .br {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    display: none;
+  }
+  span {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .summaryProject {
+    margin-top: -54px;
+    margin-left: 15px;
+    font-size: 23px;
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .ProjectsContainer {
+    width: 80%;
+  }
+  .navLink {
+    margin: 0 auto;
+    padding: 0px;
+    margin-right: 10px;
+    margin-top: -60px;
+    height: 8vh;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .summaryProject {
+    font-size: 15px;
+  }
+  .navLink {
+    height: 6vh;
+    margin-top: -50px;
+    padding-left: 22px;
+  }
+}
+@media screen and (max-width: 500px) {
+  span {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .ProjectsContainer {
+    grid-template-rows: 40vh 40vh 40vh 40vh;
+    grid-row-gap: 3%;
+    padding-left: 3%;
+  }
+  .FrontSideTower {
+    height: 40vh;
+    top: 34%;
+  }
+  .BackSideProject {
+    top: 34%;
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 440px) {
+  .navLink {
+    margin-top: -50px;
+    height: 5vh;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .points {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .summaryProject {
+    font-size: 14px;
+  }
+  .navLink {
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  span {
+    font-size: 10px;
+  }
+  .navLink {
+    height: 4vh;
+    margin-left: -45px;
+  }
 }
