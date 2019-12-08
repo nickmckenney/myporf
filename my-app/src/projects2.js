@@ -94,23 +94,45 @@ class App extends Component {
                   <div className="FrontSideTower"></div>
                 </FrontSide>
                 <BackSide>
-                  <div className="BacksideProject">THIS IS TOWER OF HANOI</div>
-                </BackSide>
-              </React.Fragment>
-            </Flippy>
-          </div>
-          <div class="projects projectCalaendarMern">
-            <Flippy
-              flipOnHover={true}
-              flipDirection={"horizantal"}
-              style={FlippyStyle}
-            >
-              <React.Fragment>
-                <FrontSide>
-                  <div className="FrontSideTower"></div>
-                </FrontSide>
-                <BackSide>
-                  <div className="BacksideProject">THIS IS TOWER OF HANOI</div>
+                  <div className="BacksideProject">
+                    <img className="BackSideTower" src={TowerOfHanoi} />
+                    <div className="points">
+                      <span>
+                        Accomplishments
+                        <div>
+                          <li>Point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                        </div>
+                      </span>
+                      <br></br>
+                      <span>
+                        Technologies
+                        <div>
+                          <li>Point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                        </div>
+                      </span>
+                    </div>
+
+                    <div className="summaryProject">
+                      <h1>Summary </h1>
+                      Why is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsddddddd
+                      <br></br> <br></br> <br></br> <br></br>
+                      <nav className="navLink">
+                        <img src={Github} />
+                        <img src={View} />
+                      </nav>
+                    </div>
+                  </div>
                 </BackSide>
               </React.Fragment>
             </Flippy>
@@ -126,7 +148,99 @@ class App extends Component {
                   <div className="FrontSideTower"></div>
                 </FrontSide>
                 <BackSide>
-                  <div className="BacksideProject">THIS IS TOWER OF HANOI</div>
+                  <div className="BacksideProject">
+                    <img className="BackSideTower" src={TowerOfHanoi} />
+                    <div className="points">
+                      <span>
+                        Accomplishments
+                        <div>
+                          <li>Point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                        </div>
+                      </span>
+                      <br></br>
+                      <span>
+                        Technologies
+                        <div>
+                          <li>Point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                        </div>
+                      </span>
+                    </div>
+
+                    <div className="summaryProject">
+                      <h1>Summary </h1>
+                      Why is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsddddddd
+                      <br></br> <br></br> <br></br> <br></br>
+                      <nav className="navLink">
+                        <img src={Github} />
+                        <img src={View} />
+                      </nav>
+                    </div>
+                  </div>
+                </BackSide>
+              </React.Fragment>
+            </Flippy>
+          </div>
+          <div class="projects projectCalaendarMern">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"horizantal"}
+              style={FlippyStyle}
+            >
+              <React.Fragment>
+                <FrontSide>
+                  <div className="FrontSideTower"></div>
+                </FrontSide>
+                <BackSide>
+                  <div className="BacksideProject">
+                    <img className="BackSideTower" src={TowerOfHanoi} />
+                    <div className="points">
+                      <span>
+                        Accomplishments
+                        <div>
+                          <li>Point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                        </div>
+                      </span>
+                      <br></br>
+                      <span>
+                        Technologies
+                        <div>
+                          <li>Point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                          <li>point2</li>
+                        </div>
+                      </span>
+                    </div>
+
+                    <div className="summaryProject">
+                      <h1>Summary </h1>
+                      Why is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsdddddddWhy is did this project and what i learned form
+                      itsddddddd
+                      <br></br> <br></br> <br></br> <br></br>
+                      <nav className="navLink">
+                        <img src={Github} />
+                        <img src={View} />
+                      </nav>
+                    </div>
+                  </div>
                 </BackSide>
               </React.Fragment>
             </Flippy>
