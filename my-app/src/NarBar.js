@@ -3,6 +3,7 @@ import "./App.css";
 import profilePic from "./profilepic.png";
 import github from "./github-brands.svg";
 import linkedln from "./linkedin-brands.svg";
+import { Link } from "react-router-dom";
 
 function resume() {
   window.open(
@@ -19,12 +20,17 @@ function NavBar() {
       <h1 className="intro">Nick Mckenney | Software Engineer</h1>
       <hr></hr>
       <div className="navBarLinkRoutes">
+        <a className="navLinks" href="/">
+          Home
+        </a>
+        <br></br>
+
         <a className="navLinks" href="" onClick={resume}>
           Resume
         </a>
         <br></br>
-        <a className="navLinks" href="">
-          Blogs
+        <a className="navLinks" href="/about">
+          About
         </a>
       </div>
     </div>
