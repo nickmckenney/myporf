@@ -1,6 +1,14 @@
 import React from "react";
 import "./App.css";
 import profilePic from "./profilepic.png";
+import github from "./github-brands.svg";
+import linkedln from "./linkedin-brands.svg";
+
+function resume() {
+  window.open(
+    "https://www.linkedin.com/in/nicholaus-mckenney-668625180/detail/treasury/summary/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACrOj3ABN1xvMrDF2Zssvbl63MycZCY52XI%2C1574538602864)&section=summary&treasuryCount=2"
+  );
+}
 function NavBar() {
   return (
     <div className="NavBarContainer">
@@ -10,7 +18,17 @@ function NavBar() {
       />
       <h1 className="intro">Nick Mckenney | Software Engineer</h1>
       <hr></hr>
-      <h1 className="">Nick Mckenney | Software Engineer</h1>
+      <a className="navLinks" href="" onClick={resume}>
+        Resume
+      </a>
+      <br></br>
+      <a className="navLinks" href="">
+        Blogs
+      </a>
+      <div className="navLinksContainer">
+        <img className="linksNav" src={github} />
+        <img className="linksNav" src={linkedln} />
+      </div>
     </div>
   );
 }
