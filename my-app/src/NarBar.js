@@ -25,10 +25,6 @@ function NavBar() {
       <a className="navLinks" href="">
         Blogs
       </a>
-      <div className="navLinksContainer">
-        <img className="linksNav" src={github} />
-        <img className="linksNav" src={linkedln} />
-      </div>
     </div>
   );
 }
