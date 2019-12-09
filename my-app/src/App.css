@@ -107,6 +107,18 @@ h1 {
   margin: auto 0;
   margin-top: -20px;
 }
+.intro {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.profilePic {
+  border-radius: 100%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20%;
+}
 .br {
   margin-left: 50px;
 }
