@@ -5,16 +5,24 @@
   grid-template-rows: 60vh 60vh 60vh 60vh;
   grid-row-gap: 3%;
   padding-left: 3%;
+  margin-right: 20px;
 }
-
 .NavBarContainer {
   position: fixed;
   height: 100vh;
   width: 37%;
-  background-color: green;
+  background-color: #5d5c61;
+}
+.projectName {
+  font-size: 30px;
+  margin-top: -7px;
+}
+.projectDescriptionFront {
+  position: relative;
+  top: 90%;
 }
 .projects {
-  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px;
+  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
 }
 .projectCoTripper {
   grid-row: 3;
@@ -33,14 +41,19 @@
 .FrontSideTrip,
 .FrontSideGov,
 .FrontSideCalendar {
-  background-size: 100% 100%;
+  background-size: 80% 75%;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 70%;
   height: 60vh;
   position: absolute;
   left: 50%;
+  /* margin-top: 40px; */
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-40%, -40%);
+}
+
+.flippy-container {
+  background-color: #7395ae;
 }
 .FrontSideTower {
   background-image: url("./Tower.png");
@@ -55,6 +68,7 @@
   background-image: url("./CoTripper.png");
 }
 .BacksideProject {
+  margin-top: 20px;
   width: 100%;
   height: 60vh;
   position: absolute;

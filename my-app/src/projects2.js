@@ -36,12 +36,17 @@ class App extends Component {
           <div class="projects projectTowerOfHanoi">
             <Flippy
               flipOnHover={true}
-              flipDirection={"horizantal"}
+              flipDirection={"vertical"}
               style={FlippyStyle}
             >
               <React.Fragment>
                 <FrontSide>
-                  <div className="FrontSideTower"></div>
+                  <h1 className="projectName">Tower Of Hanoi</h1>
+                  <div className="FrontSideTower"></div>{" "}
+                  <h1 className="projectDescriptionFront">
+                    balalalallalaalaa balalalaallalal balalalallala
+                    baallaaallala
+                  </h1>
                 </FrontSide>
                 <BackSide>
                   <div className="BacksideProject">
@@ -79,8 +84,8 @@ class App extends Component {
                       itsddddddd
                       <br></br> <br></br> <br></br> <br></br>
                       <nav className="navLink">
-                        <img src={Github} />
-                        <img src={View} />
+                        <a href="">Github</a>
+                        <a href="">Deployed Site</a>
                       </nav>
                     </div>
                   </div>
@@ -91,12 +96,17 @@ class App extends Component {
           <div class="projects projectGovernmentFundingAPI">
             <Flippy
               flipOnHover={true}
-              flipDirection={"horizantal"}
+              flipDirection={"vertical"}
               style={FlippyStyle}
             >
               <React.Fragment>
                 <FrontSide>
-                  <div className="FrontSideCalendar"></div>
+                  <h1 className="projectName">Google Calendar Mock</h1>
+                  <div className="FrontSideCalendar"></div>{" "}
+                  <h1 className="projectDescriptionFront">
+                    balalalallalaalaa balalalaallalal balalalallala
+                    baallaaallala
+                  </h1>
                 </FrontSide>
                 <BackSide>
                   <div className="BacksideProject">
@@ -133,8 +143,9 @@ class App extends Component {
                       itsddddddd
                       <br></br> <br></br> <br></br> <br></br>
                       <nav className="navLink">
-                        <img src={Github} />
-                        <img src={View} />
+                        <a href="">Github</a>
+
+                        <a href="">Deployed Site</a>
                       </nav>
                     </div>
                   </div>
@@ -145,12 +156,18 @@ class App extends Component {
           <div class="projects projectCoTripper">
             <Flippy
               flipOnHover={true}
-              flipDirection={"horizantal"}
+              flipDirection={"vertical"}
               style={FlippyStyle}
             >
               <React.Fragment>
                 <FrontSide>
+                  <h1 className="projectName">Government Funding MERN STACK</h1>
+
                   <div className="FrontSideGov"></div>
+                  <h1 className="projectDescriptionFront">
+                    balalalallalaalaa balalalaallalal balalalallala
+                    baallaaallala
+                  </h1>
                 </FrontSide>
                 <BackSide>
                   <div className="BacksideProject">
@@ -187,8 +204,8 @@ class App extends Component {
                       itsddddddd
                       <br></br> <br></br> <br></br> <br></br>
                       <nav className="navLink">
-                        <img src={Github} />
-                        <img src={View} />
+                        <a href="">Github</a>
+                        <a href="">Deployed Site</a>
                       </nav>
                     </div>
                   </div>
@@ -199,12 +216,18 @@ class App extends Component {
           <div class="projects projectCalaendarMern">
             <Flippy
               flipOnHover={true}
-              flipDirection={"horizantal"}
+              flipDirection={"vertical"}
               style={FlippyStyle}
             >
               <React.Fragment>
                 <FrontSide>
+                  <h1 className="projectName">CoTripper</h1>
+
                   <div className="FrontSideTrip"></div>
+                  <h1 className="projectDescriptionFront">
+                    balalalallalaalaa balalalaallalal balalalallala
+                    baallaaallala
+                  </h1>
                 </FrontSide>
                 <BackSide>
                   <div className="BacksideProject">
@@ -241,8 +264,8 @@ class App extends Component {
                       itsddddddd
                       <br></br> <br></br> <br></br> <br></br>
                       <nav className="navLink">
-                        <img src={Github} />
-                        <img src={View} />
+                        <a href="">Github</a>
+                        <a href="">Deployed Site</a>
                       </nav>
                     </div>
                   </div>
