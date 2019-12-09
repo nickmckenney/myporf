@@ -82,6 +82,7 @@
   height: 10vh;
   display: flex;
   align-content: space-between;
+  margin-top: -10px;
 }
 span {
   margin-left: 0.505vw;
@@ -94,6 +95,11 @@ h1 {
 }
 .br {
   margin-left: 50px;
+}
+@media screen and (max-width: 1410px) {
+  .navLink {
+    margin-top: -30px;
+  }
 }
 @media screen and (max-width: 1350px) {
   .points {
@@ -199,9 +205,9 @@ h1 {
   }
 }
 @media screen and (max-width: 580px) {
-  .ProjectsContainer {
+  /* .ProjectsContainer {
     width: 80%;
-  }
+  } */
   .navLink {
     margin: 0 auto;
     padding: 0px;
@@ -227,7 +233,7 @@ h1 {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 530px) {
+/* @media screen and (max-width: 530px) {
   .ProjectsContainer {
     grid-template-rows: 40vh 40vh 40vh 40vh;
     grid-row-gap: 3%;
@@ -241,7 +247,7 @@ h1 {
     top: 34%;
     height: 40vh;
   }
-}
+} */
 @media screen and (max-width: 440px) {
   .navLink {
     margin-top: -50px;
