@@ -44,12 +44,12 @@
   background-size: 80% 75%;
   background-repeat: no-repeat;
   width: 70%;
-  height: 60vh;
+  height: 54vh;
   position: absolute;
   left: 50%;
   /* margin-top: 40px; */
   top: 50%;
-  transform: translate(-40%, -40%);
+  transform: translate(-40%, -43%);
 }
 
 .flippy-container {
