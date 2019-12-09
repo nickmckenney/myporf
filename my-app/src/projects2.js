@@ -5,49 +5,13 @@ import View from "./eye-solid.svg";
 
 import "./App.css";
 import TowerOfHanoi from "./Tower.png";
-// function windowsizer(x) {
-//   var x = window.matchMedia("(max-width: 530px)");
-
-//   if (x.matches) {
-//     const FlippyStyle = {
-//       textAlign: "center",
-//       justifyContent: "center",
-//       height: "60vh"
-//     };
-//   } else {
-//     const FlippyStyle = {
-//       textAlign: "center",
-//       justifyContent: "center",
-//       height: "60vh"
-//     };
-//   }
-// }
-// x.addListener(windowsizer);
-// windowsizer();
-
-// function myFunction(x) {
-//   if (x.matches) {
-//     // If media query matches
-//     document.body.style.backgroundColor = "yellow";
-//     const FlippyStyle = {
-//       textAlign: "center",
-//       justifyContent: "center",
-//       height: "40vh"
-//     };
-//   } else {
-//     document.body.style.backgroundColor = "pink";
-//   }
-// }
-
-// var x = window.matchMedia("(max-width: 530px)");
-// myFunction(x); // Call listener function at run time
-// x.addListener(myFunction); // Attach listener function on state changes
 
 const FlippyStyle = {
   textAlign: "center",
   justifyContent: "center",
   height: "60vh"
 };
+
 class App extends Component {
   constructor(props) {
     super(props);

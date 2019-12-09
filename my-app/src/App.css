@@ -219,16 +219,58 @@ h1 {
 }
 
 @media screen and (max-width: 530px) {
+  .BackSideTower {
+    display: inline;
+    width: 45%;
+    height: 30vh;
+    top: 31%;
+    left: 55%;
+  }
+  .points {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+  }
+  span {
+    font-size: 3vw;
+    margin: 0px 0px 0px 0px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  .br {
+    margin: 0 auto;
+  }
   .summaryProject {
-    font-size: 15px;
+    font-size: 4vw;
+    margin-top: -40px;
   }
   .navLink {
     height: 6vh;
-    margin-top: -50px;
+    margin-top: -60px;
     padding-left: 22px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
+  .summaryProject {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .summaryProject {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .summaryProject {
+    margin-top: -43px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .summaryProject {
+    font-size: 20px;
+    margin-top: -50px;
+  }
   span {
     font-size: 15px;
   }
@@ -254,26 +296,35 @@ h1 {
     height: 5vh;
     padding-left: 10px;
   }
+  .summaryProject {
+    font-size: 19px;
+  }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 426px) {
   .points {
     font-size: 13px;
   }
+  .summaryProject {
+    font-size: 18px;
+
+    margin-top: -50px;
+  }
 }
 @media screen and (max-width: 400px) {
-  .summaryProject {
-    font-size: 14px;
+}
+@media screen and (max-width: 370px) {
+  span {
+    font-size: 13px;
   }
-  .navLink {
-    margin-left: -20px;
+  .summaryProject {
+    margin-top: -30px;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 335px) {
   span {
-    font-size: 10px;
+    font-size: 13px;
   }
-  .navLink {
-    height: 4vh;
-    margin-left: -45px;
+  .summaryProject {
+    font-size: 16px;
   }
 }
