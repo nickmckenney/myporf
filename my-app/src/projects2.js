@@ -85,7 +85,10 @@ class App extends Component {
                       <br></br> <br></br> <br></br> <br></br>
                       <nav className="navLink">
                         <a href="">Github</a>
-                        <a href="">Deployed Site</a>
+
+                        <a className="break" href="">
+                          Deployed Site
+                        </a>
                       </nav>
                     </div>
                   </div>
@@ -144,8 +147,9 @@ class App extends Component {
                       <br></br> <br></br> <br></br> <br></br>
                       <nav className="navLink">
                         <a href="">Github</a>
-
-                        <a href="">Deployed Site</a>
+                        <a className="break" href="">
+                          Deployed Site
+                        </a>{" "}
                       </nav>
                     </div>
                   </div>
@@ -205,7 +209,9 @@ class App extends Component {
                       <br></br> <br></br> <br></br> <br></br>
                       <nav className="navLink">
                         <a href="">Github</a>
-                        <a href="">Deployed Site</a>
+                        <a className="break" href="">
+                          Deployed Site
+                        </a>{" "}
                       </nav>
                     </div>
                   </div>
@@ -265,7 +271,9 @@ class App extends Component {
                       <br></br> <br></br> <br></br> <br></br>
                       <nav className="navLink">
                         <a href="">Github</a>
-                        <a href="">Deployed Site</a>
+                        <a className="break" href="">
+                          Deployed Site
+                        </a>{" "}
                       </nav>
                     </div>
                   </div>

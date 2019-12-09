@@ -18,13 +18,15 @@ function NavBar() {
       />
       <h1 className="intro">Nick Mckenney | Software Engineer</h1>
       <hr></hr>
-      <a className="navLinks" href="" onClick={resume}>
-        Resume
-      </a>
-      <br></br>
-      <a className="navLinks" href="">
-        Blogs
-      </a>
+      <div className="navBarLinkRoutes">
+        <a className="navLinks" href="" onClick={resume}>
+          Resume
+        </a>
+        <br></br>
+        <a className="navLinks" href="">
+          Blogs
+        </a>
+      </div>
     </div>
   );
 }
