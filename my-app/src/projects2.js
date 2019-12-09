@@ -5,6 +5,9 @@ import View from "./eye-solid.svg";
 
 import "./App.css";
 import TowerOfHanoi from "./Tower.png";
+import calendar from "./calendar.png";
+import gov from "./gov.png";
+import Tripper from "./CoTripper.png";
 
 const FlippyStyle = {
   textAlign: "center",
@@ -93,11 +96,11 @@ class App extends Component {
             >
               <React.Fragment>
                 <FrontSide>
-                  <div className="FrontSideTower"></div>
+                  <div className="FrontSideCalendar"></div>
                 </FrontSide>
                 <BackSide>
                   <div className="BacksideProject">
-                    <img className="BackSideTower" src={TowerOfHanoi} />
+                    <img className="BackSideTower" src={calendar} />
                     <div className="points">
                       <span>
                         Accomplishments
@@ -147,11 +150,11 @@ class App extends Component {
             >
               <React.Fragment>
                 <FrontSide>
-                  <div className="FrontSideTower"></div>
+                  <div className="FrontSideGov"></div>
                 </FrontSide>
                 <BackSide>
                   <div className="BacksideProject">
-                    <img className="BackSideTower" src={TowerOfHanoi} />
+                    <img className="BackSideTower" src={gov} />
                     <div className="points">
                       <span>
                         Accomplishments
@@ -201,11 +204,11 @@ class App extends Component {
             >
               <React.Fragment>
                 <FrontSide>
-                  <div className="FrontSideTower"></div>
+                  <div className="FrontSideTrip"></div>
                 </FrontSide>
                 <BackSide>
                   <div className="BacksideProject">
-                    <img className="BackSideTower" src={TowerOfHanoi} />
+                    <img className="BackSideTower" src={Tripper} />
                     <div className="points">
                       <span>
                         Accomplishments

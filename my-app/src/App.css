@@ -29,8 +29,10 @@
 .projectCalaendarMern {
   grid-row: 4;
 }
-.FrontSideTower {
-  background-image: url("./Tower.png");
+.FrontSideTower,
+.FrontSideTrip,
+.FrontSideGov,
+.FrontSideCalendar {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -39,6 +41,18 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.FrontSideTower {
+  background-image: url("./Tower.png");
+}
+.FrontSideCalendar {
+  background-image: url("./calendar.png");
+}
+.FrontSideGov {
+  background-image: url("./gov.png");
+}
+.FrontSideTrip {
+  background-image: url("./CoTripper.png");
 }
 .BacksideProject {
   width: 100%;
