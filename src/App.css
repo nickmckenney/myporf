@@ -11,7 +11,10 @@
   padding-left: 3%;
   margin-right: 20px;
 }
-
+ul {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
 .ProjectsContainerAboutMe {
   background-color: coral;
   margin-left: 37%;
@@ -260,13 +263,17 @@ h1 {
     margin-top: -20px;
   }
 }
+/* @media screen and (max-width:) */
 @media screen and (max-width: 760px) {
   .points {
     margin-top: 25px;
   }
   span {
     margin-right: 5px;
-    font-size: 2.409vw;
+  }
+  span {
+    font-size: 3.09vw;
+    margin-top: -20px;
   }
   .summaryProject {
     margin-top: -10px;
@@ -280,6 +287,7 @@ h1 {
     margin-top: 15px;
     font-size: 20px;
   }
+
   .navLink {
     margin-top: -15px;
   }
@@ -295,7 +303,7 @@ h1 {
 }
 @media screen and (max-width: 610px) {
   .BackSideTower {
-    display: none;
+    /* display: none; */
   }
   .points {
     width: 100%;
@@ -309,10 +317,11 @@ h1 {
   }
   span {
     margin: 0 auto;
+    margin-right: 110px;
     font-size: 20px;
   }
   .summaryProject {
-    margin-top: -54px;
+    margin-top: -10px;
     margin-left: 15px;
     font-size: 23px;
     margin-right: 15px;
@@ -382,8 +391,17 @@ h1 {
   }
 }
 @media screen and (max-width: 510px) {
+  span {
+    margin-right: -20px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
   .summaryProject {
-    margin-top: -30px;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 468px) {
@@ -422,18 +440,65 @@ h1 {
   .summaryProject {
     font-size: 18px;
 
-    margin-top: -40px;
+    margin-top: 60px;
+  }
+  .intro {
+    font-size: 10px;
+    margin-left: 27px;
+  }
+  .ProjectsContainer {
+    margin-right: -10px;
+    margin-left: 20px;
+  }
+  .navBarLinkRoutes {
+    margin-left: 0px;
+    right: 96px;
+  }
+  span {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  ul {
+    margin: 0 auto;
+    margin-right: 45px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
+  .summaryProject {
+    margin-top: 70px;
+    font-size: 17px;
+  }
+  .ProjectsContainer {
+    margin-right: 25px;
+  }
+  .intro {
+    margin-left: 3px;
+  }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 380px) {
+  /* 
   span {
-    font-size: 13px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  ul {
+    margin: 0 auto;
+    margin-right: 45px;
+  } */
+  .navBarLinkRoutes {
+    margin-right: -39px;
+    margin-top: 10px;
+  }
+  .intro {
+    margin-left: 10px;
   }
   .summaryProject {
-    margin-top: 11px;
-    font-size: 16px;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .ProjectsContainer {
+    /* margin-right: 10px; */
+    margin-left: 20px;
   }
 }
 @media screen and (max-width: 335px) {

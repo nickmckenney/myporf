@@ -53,23 +53,14 @@ class App extends Component {
                     <img className="BackSideTower" src={TowerOfHanoi} />
                     <div className="points">
                       <span>
-                        Accomplishments
-                        <div>
-                          <li>Point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                        </div>
-                      </span>
-                      <div className="br"></div>
-
-                      <span>
                         Technologies
                         <div>
-                          <li>Point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
+                          <ul>
+                            <li>Javascript</li>
+                            <li>CSS3</li>
+                            <li>HTML5</li>
+                            <li>Git</li>
+                          </ul>
                         </div>
                       </span>
                     </div>
@@ -104,7 +95,7 @@ class App extends Component {
             >
               <React.Fragment>
                 <FrontSide>
-                  <h1 className="projectName">Google Calendar Mock</h1>
+                  <h1 className="projectName">Google Calendar</h1>
                   <div className="FrontSideCalendar"></div>{" "}
                   <h1 className="projectDescriptionFront">
                     balalalallalaalaa balalalaallalal balalalallala
@@ -116,22 +107,14 @@ class App extends Component {
                     <img className="BackSideTower" src={calendar} />
                     <div className="points">
                       <span>
-                        Accomplishments
-                        <div>
-                          <li>Point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                        </div>
-                      </span>
-                      <br></br>
-                      <span>
                         Technologies
                         <div>
-                          <li>Point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
+                          <ul>
+                            <li>Mongoose/Express</li>
+                            <li>Node.js</li>
+                            <li>Mongodb</li>
+                            <li>API</li>
+                          </ul>
                         </div>
                       </span>
                     </div>
@@ -178,22 +161,14 @@ class App extends Component {
                     <img className="BackSideTower" src={gov} />
                     <div className="points">
                       <span>
-                        Accomplishments
-                        <div>
-                          <li>Point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                        </div>
-                      </span>
-                      <br></br>
-                      <span>
                         Technologies
                         <div>
-                          <li>Point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
+                          <ul>
+                            <li>Mongoose/Express</li>
+                            <li>Node.js</li>
+                            <li>Mongodb</li>
+                            <li>API</li>
+                          </ul>
                         </div>
                       </span>
                     </div>
@@ -240,22 +215,14 @@ class App extends Component {
                     <img className="BackSideTower" src={Tripper} />
                     <div className="points">
                       <span>
-                        Accomplishments
-                        <div>
-                          <li>Point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                        </div>
-                      </span>
-                      <br></br>
-                      <span>
                         Technologies
                         <div>
-                          <li>Point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
-                          <li>point2</li>
+                          <ul>
+                            <li>Mongoose/Express</li>
+                            <li>Node.js</li>
+                            <li>Mongodb</li>
+                            <li>API</li>
+                          </ul>
                         </div>
                       </span>
                     </div>
