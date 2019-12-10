@@ -187,6 +187,7 @@ h1 {
 @media screen and (max-width: 1180px) {
   .navLinks {
     margin-right: 20px;
+    font-size: 18px;
   }
   .intro {
     display: flex;
@@ -200,7 +201,7 @@ h1 {
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
-    top: -90%;
+    top: -77%;
   }
   .summaryProject {
     margin-top: -10px;

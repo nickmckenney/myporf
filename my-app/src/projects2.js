@@ -165,7 +165,7 @@ class App extends Component {
             >
               <React.Fragment>
                 <FrontSide>
-                  <h1 className="projectName">Government Funding MERN STACK</h1>
+                  <h1 className="projectName">Government Funding API</h1>
 
                   <div className="FrontSideGov"></div>
                   <h1 className="projectDescriptionFront">
