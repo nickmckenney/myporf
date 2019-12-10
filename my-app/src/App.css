@@ -1,3 +1,7 @@
+.App1 {
+  height: 100vh;
+  background-color: coral;
+}
 .ProjectsContainer {
   background-color: white;
   margin-left: 37%;
@@ -8,6 +12,15 @@
   margin-right: 20px;
 }
 
+.ProjectsContainerAboutMe {
+  background-color: coral;
+  margin-left: 37%;
+  display: grid;
+  grid-row-gap: 3%;
+  padding-left: 3%;
+  margin-right: 20px;
+  /* box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 20px 15px; */
+}
 .NavBarContainer {
   position: fixed;
   height: 100vh;
