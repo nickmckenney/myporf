@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c6bcbea.chunk.css",
+    "main.js": "/static/js/main.a767df46.chunk.js",
+    "main.js.map": "/static/js/main.a767df46.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6c91d66d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6c91d66d.js.map",
+    "static/css/2.c0851dc3.chunk.css": "/static/css/2.c0851dc3.chunk.css",
+    "static/js/2.474ab9e8.chunk.js": "/static/js/2.474ab9e8.chunk.js",
+    "static/js/2.474ab9e8.chunk.js.map": "/static/js/2.474ab9e8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dccd0c9f17442e82264a6e053e90eab7.js": "/precache-manifest.dccd0c9f17442e82264a6e053e90eab7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.c0851dc3.chunk.css.map": "/static/css/2.c0851dc3.chunk.css.map",
+    "static/css/main.9c6bcbea.chunk.css.map": "/static/css/main.9c6bcbea.chunk.css.map",
+    "static/js/2.474ab9e8.chunk.js.LICENSE": "/static/js/2.474ab9e8.chunk.js.LICENSE",
+    "static/media/CoTripper.png": "/static/media/CoTripper.a24ae611.png",
+    "static/media/Tower.png": "/static/media/Tower.218e7b9e.png",
+    "static/media/calendar.png": "/static/media/calendar.7ac40070.png",
+    "static/media/eye-solid.svg": "/static/media/eye-solid.9031ec88.svg",
+    "static/media/github-brands.svg": "/static/media/github-brands.ec5bc1b3.svg",
+    "static/media/gov.png": "/static/media/gov.d8c5ab96.png",
+    "static/media/linkedin-brands.svg": "/static/media/linkedin-brands.d9049f46.svg",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/profilepic.png": "/static/media/profilepic.5a46ad0e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c91d66d.js",
+    "static/css/2.c0851dc3.chunk.css",
+    "static/js/2.474ab9e8.chunk.js",
+    "static/css/main.9c6bcbea.chunk.css",
+    "static/js/main.a767df46.chunk.js"
+  ]
+}
