@@ -44,8 +44,8 @@ class App extends Component {
                   <h1 className="projectName">Tower Of Hanoi</h1>
                   <div className="FrontSideTower"></div>{" "}
                   <h1 className="projectDescriptionFront">
-                    balalalallalaalaa balalalaallalal balalalallala
-                    baallaaallala
+                    "Tower of Hanoi is a puzzle containing disks in a neat stack
+                    in ascending order.
                   </h1>
                 </FrontSide>
                 <BackSide>
@@ -66,7 +66,6 @@ class App extends Component {
                     </div>
 
                     <div className="summaryProject">
-                      <h1>Summary </h1>
                       Why is did this project and what i learned form
                       itsdddddddWhy is did this project and what i learned form
                       itsdddddddWhy is did this project and what i learned form
@@ -98,8 +97,7 @@ class App extends Component {
                   <h1 className="projectName">Google Calendar</h1>
                   <div className="FrontSideCalendar"></div>{" "}
                   <h1 className="projectDescriptionFront">
-                    balalalallalaalaa balalalaallalal balalalallala
-                    baallaaallala
+                    A mock of the Google Calendar containing an API
                   </h1>
                 </FrontSide>
                 <BackSide>
@@ -120,7 +118,6 @@ class App extends Component {
                     </div>
 
                     <div className="summaryProject">
-                      <h1>Summary </h1>
                       Why is did this project and what i learned form
                       itsdddddddWhy is did this project and what i learned form
                       itsdddddddWhy is did this project and what i learned form
@@ -152,8 +149,8 @@ class App extends Component {
 
                   <div className="FrontSideGov"></div>
                   <h1 className="projectDescriptionFront">
-                    balalalallalaalaa balalalaallalal balalalallala
-                    baallaaallala
+                    A MERN Stack project fetching data about Government Funding
+                    towards States and respected contractors
                   </h1>
                 </FrontSide>
                 <BackSide>
@@ -174,7 +171,6 @@ class App extends Component {
                     </div>
 
                     <div className="summaryProject">
-                      <h1>Summary </h1>
                       Why is did this project and what i learned form
                       itsdddddddWhy is did this project and what i learned form
                       itsdddddddWhy is did this project and what i learned form
@@ -206,8 +202,7 @@ class App extends Component {
 
                   <div className="FrontSideTrip"></div>
                   <h1 className="projectDescriptionFront">
-                    balalalallalaalaa balalalaallalal balalalallala
-                    baallaaallala
+                    A Client group project with Storybook,Django,and React
                   </h1>
                 </FrontSide>
                 <BackSide>
@@ -228,7 +223,6 @@ class App extends Component {
                     </div>
 
                     <div className="summaryProject">
-                      <h1>Summary </h1>
                       Why is did this project and what i learned form
                       itsdddddddWhy is did this project and what i learned form
                       itsdddddddWhy is did this project and what i learned form
