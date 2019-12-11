@@ -34,24 +34,12 @@ class App extends Component {
     return (
       <div className="App1">
         <div className="ProjectsContainerAboutMe">
-          {" "}
-          <Flippy
-            flipOnHover={true}
-            flipDirection={"vertical"}
-            style={FlippyStyle}
-          >
-            <React.Fragment>
-              <FrontSide>
-                <h1 className="projectName">About Me</h1>
-                <h1 className="projectDescriptionFront">
-                  balalalallalaalaa balalalaallalal balalalallala baallaaallala
-                </h1>
-              </FrontSide>
-              <BackSide>
-                <div className="BacksideProject"></div>
-              </BackSide>
-            </React.Fragment>
-          </Flippy>
+          <h1 className="projectDescriptionAbout">
+            I recently gradudated highschool in 2019 and was driven to go
+            directly into a career I love. I was Previously a Google Data Center
+            Techician repairing servers and learning things on the spot. After
+            my position I went directly to a coding bootcamp.
+          </h1>
         </div>
       </div>
     );

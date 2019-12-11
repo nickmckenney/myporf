@@ -15,14 +15,28 @@ ul {
   margin-bottom: 0px;
   margin-top: 5px;
 }
-.ProjectsContainerAboutMe {
-  background-color: coral;
-  margin-left: 37%;
-  display: grid;
-  grid-row-gap: 3%;
-  padding-left: 3%;
+.projectDescriptionAbout {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: blueviolet;
   margin-right: 20px;
-  /* box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 20px 15px; */
+  margin-left: 39%;
+  height: 60vh;
+  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
+  font-size: 25px;
+}
+.ProjectsContainerAbout {
+  /* background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 20vh; */
 }
 .NavBarContainer {
   position: fixed;
@@ -32,7 +46,7 @@ ul {
 }
 .projectName {
   font-size: 30px;
-  margin-top: -7px;
+  /* margin-top: -7px; */
 }
 .projectDescriptionFront {
   position: relative;
@@ -250,13 +264,6 @@ h1 {
   .br {
     margin: 0 auto;
   }
-  .summaryProject {
-    /* margin-top: 10px;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 22px; */
-  }
 }
 @media screen and (max-width: 800px) {
   .navLink {
@@ -303,7 +310,6 @@ h1 {
 }
 @media screen and (max-width: 610px) {
   .BackSideTower {
-    /* display: none; */
   }
   .points {
     width: 100%;
@@ -328,9 +334,6 @@ h1 {
   }
 }
 @media screen and (max-width: 580px) {
-  /* .ProjectsContainer {
-    width: 80%;
-  } */
   .navLink {
     margin: 0 auto;
     padding: 0px;
@@ -476,15 +479,6 @@ h1 {
   }
 }
 @media screen and (max-width: 380px) {
-  /* 
-  span {
-    font-size: 16px;
-    margin: 0 auto;
-  }
-  ul {
-    margin: 0 auto;
-    margin-right: 45px;
-  } */
   .navBarLinkRoutes {
     margin-right: -39px;
     margin-top: 10px;
@@ -497,7 +491,6 @@ h1 {
     font-size: 15px;
   }
   .ProjectsContainer {
-    /* margin-right: 10px; */
     margin-left: 20px;
   }
 }
