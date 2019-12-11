@@ -14,7 +14,17 @@ const FlippyStyle = {
   justifyContent: "center",
   height: "60vh"
 };
+function myFunction(x) {
+  if (x.matches) {
+    alert("a");
+  } else {
+    alert("b");
+  }
+}
 
+var x = window.matchMedia("(max-width: 700px)");
+myFunction(x); // Call listener function at run time
+x.addListener(myFunction); // Attach listener function on state changes
 class App extends Component {
   constructor(props) {
     super(props);
@@ -42,7 +52,7 @@ class App extends Component {
               <React.Fragment>
                 <FrontSide>
                   <h1 className="projectName">Tower Of Hanoi</h1>
-                  <div className="FrontSideTower"></div>{" "}
+                  <div className="FrontSideTower"></div>
                   <h1 className="projectDescriptionFront">
                     "Tower of Hanoi is a puzzle containing disks in a neat stack
                     in ascending order.
@@ -51,36 +61,27 @@ class App extends Component {
                 <BackSide>
                   <div className="BacksideProject">
                     <img className="BackSideTower" src={TowerOfHanoi} />
-                    <div className="points">
-                      <span>
-                        Technologies
-                        <div>
-                          <ul>
-                            <li>Javascript</li>
-                            <li>CSS3</li>
-                            <li>HTML5</li>
-                            <li>Git</li>
-                          </ul>
-                        </div>
-                      </span>
-                    </div>
 
-                    <div className="summaryProject">
-                      Why is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsddddddd
-                      <br></br> <br></br> <br></br> <br></br>
-                      <nav className="navLink">
-                        <a href="">Github</a>
-
-                        <a className="break" href="">
-                          Deployed Site
-                        </a>
-                      </nav>
+                    <div className="project-text">
+                      <div className="project-title">Tower of Hanoi</div>
+                      <div className="project-subtitle">
+                        Why is did this project and what i learned form
+                        itsdddddddWhy is did this project and what i learned
+                        form itsdddddddWhy is did this project and what i
+                        learned form itsdddddddWhy is did this project and what
+                      </div>
+                      <hr></hr>
+                      <div className="project-subtitle2">
+                        Why is did this project and what i learned form
+                        itsdddddddWhy is did this project and what i learned
+                      </div>
                     </div>
+                    <nav className="navLink">
+                      <a href="">Github</a>
+                      <a className="break" href="">
+                        Deployed Site
+                      </a>{" "}
+                    </nav>
                   </div>
                 </BackSide>
               </React.Fragment>
@@ -103,35 +104,26 @@ class App extends Component {
                 <BackSide>
                   <div className="BacksideProject">
                     <img className="BackSideTower" src={calendar} />
-                    <div className="points">
-                      <span>
-                        Technologies
-                        <div>
-                          <ul>
-                            <li>Mongoose/Express</li>
-                            <li>Node.js</li>
-                            <li>Mongodb</li>
-                            <li>API</li>
-                          </ul>
-                        </div>
-                      </span>
+                    <div className="project-text">
+                      <div className="project-title">Tower of Hanoi</div>
+                      <div className="project-subtitle">
+                        Why is did this project and what i learned form
+                        itsdddddddWhy is did this project and what i learned
+                        form itsdddddddWhy is did this project and what i
+                        learned form itsdddddddWhy is did this project and what
+                      </div>
+                      <hr></hr>
+                      <div className="project-subtitle2">
+                        Why is did this project and what i learned form
+                        itsdddddddWhy is did this project and what i learned
+                      </div>
                     </div>
-
-                    <div className="summaryProject">
-                      Why is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsddddddd
-                      <br></br> <br></br> <br></br> <br></br>
-                      <nav className="navLink">
-                        <a href="">Github</a>
-                        <a className="break" href="">
-                          Deployed Site
-                        </a>{" "}
-                      </nav>
-                    </div>
+                    <nav className="navLink">
+                      <a href="">Github</a>
+                      <a className="break" href="">
+                        Deployed Site
+                      </a>{" "}
+                    </nav>
                   </div>
                 </BackSide>
               </React.Fragment>
@@ -156,35 +148,27 @@ class App extends Component {
                 <BackSide>
                   <div className="BacksideProject">
                     <img className="BackSideTower" src={gov} />
-                    <div className="points">
-                      <span>
-                        Technologies
-                        <div>
-                          <ul>
-                            <li>Mongoose/Express</li>
-                            <li>Node.js</li>
-                            <li>Mongodb</li>
-                            <li>API</li>
-                          </ul>
-                        </div>
-                      </span>
-                    </div>
 
-                    <div className="summaryProject">
-                      Why is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsddddddd
-                      <br></br> <br></br> <br></br> <br></br>
-                      <nav className="navLink">
-                        <a href="">Github</a>
-                        <a className="break" href="">
-                          Deployed Site
-                        </a>{" "}
-                      </nav>
+                    <div className="project-text">
+                      <div className="project-title">Tower of Hanoi</div>
+                      <div className="project-subtitle">
+                        Why is did this project and what i learned form
+                        itsdddddddWhy is did this project and what i learned
+                        form itsdddddddWhy is did this project and what i
+                        learned form itsdddddddWhy is did this project and what
+                      </div>
+                      <hr></hr>
+                      <div className="project-subtitle2">
+                        Why is did this project and what i learned form
+                        itsdddddddWhy is did this project and what i learned
+                      </div>
                     </div>
+                    <nav className="navLink">
+                      <a href="">Github</a>
+                      <a className="break" href="">
+                        Deployed Site
+                      </a>{" "}
+                    </nav>
                   </div>
                 </BackSide>
               </React.Fragment>
@@ -208,35 +192,27 @@ class App extends Component {
                 <BackSide>
                   <div className="BacksideProject">
                     <img className="BackSideTower" src={Tripper} />
-                    <div className="points">
-                      <span>
-                        Technologies
-                        <div>
-                          <ul>
-                            <li>Mongoose/Express</li>
-                            <li>Node.js</li>
-                            <li>Mongodb</li>
-                            <li>API</li>
-                          </ul>
-                        </div>
-                      </span>
-                    </div>
 
-                    <div className="summaryProject">
-                      Why is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsdddddddWhy is did this project and what i learned form
-                      itsddddddd
-                      <br></br> <br></br> <br></br> <br></br>
-                      <nav className="navLink">
-                        <a href="">Github</a>
-                        <a className="break" href="">
-                          Deployed Site
-                        </a>{" "}
-                      </nav>
+                    <div className="project-text">
+                      <div className="project-title">Tower of Hanoi</div>
+                      <div className="project-subtitle">
+                        Why is did this project and what i learned form
+                        itsdddddddWhy is did this project and what i learned
+                        form itsdddddddWhy is did this project and what i
+                        learned form itsdddddddWhy is did this project and what
+                      </div>
+                      <hr></hr>
+                      <div className="project-subtitle2">
+                        Why is did this project and what i learned form
+                        itsdddddddWhy is did this project and what i learned
+                      </div>
                     </div>
+                    <nav className="navLink">
+                      <a href="">Github</a>
+                      <a className="break" href="">
+                        Deployed Site
+                      </a>{" "}
+                    </nav>
                   </div>
                 </BackSide>
               </React.Fragment>
