@@ -246,13 +246,13 @@ li {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -10%;
+    top: -40%;
   }
   .navBarLinkRoutes {
     display: flex;
     flex-direction: row;
     position: relative;
-    top: -100%;
+    top: -60%;
     justify-content: space-evenly;
   }
   .ProjectsContainer {
@@ -332,5 +332,10 @@ li {
 @media screen and (max-width: 502px) {
   .project-subtitle {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .project-subtitle {
+    font-size: 18px;
   }
 }
