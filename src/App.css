@@ -76,7 +76,7 @@ ul {
   background-size: 80% 75%;
   background-repeat: no-repeat;
   width: 70%;
-  height: 54vh;
+  height: 40vh;
   position: absolute;
   left: 50%;
   /* margin-top: 40px; */
@@ -224,7 +224,7 @@ h1 {
     display: flex;
     flex-direction: row;
     position: relative;
-    top: -90%;
+    top: -100%;
     justify-content: space-evenly;
   }
   .ProjectsContainer {
@@ -247,5 +247,11 @@ h1 {
     padding-top: 120px;
     margin-left: 10%;
     margin-right: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project-subtitle,
+  .project-subtitle2 {
+    font-size: 15px;
   }
 }
