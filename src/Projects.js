@@ -35,8 +35,7 @@ class App extends Component {
       <div className="App1">
         <h1>About Nick McKenney</h1>
         <div className="ProjectsContainerAboutMe">
-          <h1 className="about">About Nick McKenney</h1>
-          <hr></hr>
+          <h1>About Nick</h1>
           <h1 className="projectDescriptionAbout">
             I recently gradudated highschool in 2019 and was driven to go
             directly into a career I love. I was Previously a Google Data Center
