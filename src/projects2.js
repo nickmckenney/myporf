@@ -14,24 +14,24 @@ const FlippyStyle = {
   justifyContent: "center",
   height: "60vh"
 };
-function myFunction(x) {
-  if (x.matches) {
-    alert("a");
-  } else {
-    alert("b");
-  }
-}
 
-var x = window.matchMedia("(max-width: 700px)");
-myFunction(x); // Call listener function at run time
-x.addListener(myFunction); // Attach listener function on state changes
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       isFlipped: false
     };
+    function myFunction(x) {
+      if (x.matches) {
+        return <div className="App">a</div>;
+      } else {
+        return <div className="App">a</div>;
+      }
+    }
 
+    var x = window.matchMedia("(max-width: 700px)");
+    myFunction(x);
+    x.addListener(myFunction);
     setInterval(() => {
       this.setState({
         isFlipped: !this.state.isFlipped
