@@ -1,6 +1,11 @@
 .App1 {
-  height: 100vh;
-  background-color: coral;
+  height: 200vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 113, 0, 1) 100%
+  );
 }
 .ProjectsContainer {
   background-color: white;
@@ -11,43 +16,12 @@
   padding-left: 3%;
   margin-right: 20px;
 }
+
 ul {
   margin-bottom: 0px;
   margin-top: 5px;
 }
-.projectDescriptionAbout {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: lightblue;
-  margin-right: 20px;
-  margin-left: 39%;
-  height: 60vh;
-  box-shadow: 0 100px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
-  font-size: 25px;
-  margin-top: 10%;
-}
-.ProjectsContainerAboutMe {
-  background-color: tan;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-}
-.about {
-  background-color: red;
-  position: absolute;
-  top: 23%;
-  left: 6%;
 
-  width: max-content;
-  height: max-content;
-  font-size: 30px;
-}
 .NavBarContainer {
   position: fixed;
   height: 100vh;
@@ -131,8 +105,35 @@ ul {
   float: left;
 }
 .projectDescriptionAbout {
-  padding-left: 15%;
-  padding-right: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: grey;
+  margin-right: 20px;
+  color: whitesmoke;
+  margin-left: 39%;
+  height: 60vh;
+  box-shadow: 0 100px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
+  font-size: 25px;
+  margin-top: 10%;
+}
+
+.ProjectContainerSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: grey;
+  margin-right: 20px;
+  color: whitesmoke;
+  margin-left: 39%;
+  height: 60vh;
+  box-shadow: 0 100px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
+  font-size: 25px;
+  margin-top: 15%;
 }
 .project-title {
   font-weight: 400;
@@ -150,7 +151,6 @@ ul {
   margin-left: 20px;
   margin-right: 10px;
 }
-
 p {
   display: block;
   margin-block-start: 1em;
@@ -178,6 +178,7 @@ p {
   text-decoration: double;
   display: flex;
   flex-direction: column;
+  color: wheat;
 }
 .navLinksContainer {
   display: flex;
@@ -255,11 +256,7 @@ li {
     top: -65%;
     justify-content: space-evenly;
   }
-  .ProjectsContainer {
-    margin: 0 auto;
-    padding-top: 100px;
-    margin-right: 20px;
-  }
+
   .profilePic {
     display: none;
   }
@@ -268,13 +265,23 @@ li {
     height: 10vh;
     z-index: 20;
   }
+  .ProjectsContainer {
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-right: 20px;
+  }
   .projectDescriptionAbout {
     margin: 0 auto;
+
+    margin-bottom: 40%;
+    padding: 0px;
   }
   .ProjectsContainerAboutMe {
-    padding-top: 120px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 19%;
+    background-color: tomato;
+    display: block;
   }
   li {
     font-size: 16px;

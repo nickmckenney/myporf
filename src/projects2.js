@@ -56,8 +56,9 @@ class App extends Component {
                   <div className="project-title">Tower of Hanoi</div>
                   <div className="project-subtitle">
                     This was the first project I did at General Assembly that is
-                    a front-end game. I used javascript, CSS3, and HTML5 to make
-                    this game work
+                    a front-end game. I used Javascript, CSS3, and HTML5 to make
+                    this game work. Game logic is exactly like Tower of Hanoi.
+                    This is a DOM based game and only used DOM manipulation
                   </div>
                 </div>
                 <nav className="navLink">
