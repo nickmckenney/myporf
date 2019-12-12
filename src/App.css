@@ -255,3 +255,9 @@ h1 {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 400px) {
+  .project-subtitle,
+  .project-subtitle2 {
+    font-size: 13px;
+  }
+}

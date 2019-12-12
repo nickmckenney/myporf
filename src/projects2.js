@@ -21,17 +21,17 @@ class App extends Component {
     this.state = {
       isFlipped: false
     };
-    function myFunction(x) {
-      if (x.matches) {
-        return <div className="App">a</div>;
-      } else {
-        return <div className="App">a</div>;
-      }
-    }
+    // function myFunction(x) {
+    //   if (x.matches) {
+    //     alert("a");
+    //   } else {
+    //     alert("B");
+    //   }
+    // }
 
-    var x = window.matchMedia("(max-width: 700px)");
-    myFunction(x);
-    x.addListener(myFunction);
+    // var x = window.matchMedia("(max-width: 700px)");
+    // myFunction(x);
+    // x.addListener(myFunction);
     setInterval(() => {
       this.setState({
         isFlipped: !this.state.isFlipped
@@ -49,42 +49,30 @@ class App extends Component {
               flipDirection={"vertical"}
               style={FlippyStyle}
             >
-              <React.Fragment>
-                <FrontSide>
-                  <h1 className="projectName">Tower Of Hanoi</h1>
-                  <div className="FrontSideTower"></div>
-                  <h1 className="projectDescriptionFront">
-                    "Tower of Hanoi is a puzzle containing disks in a neat stack
-                    in ascending order.
-                  </h1>
-                </FrontSide>
-                <BackSide>
-                  <div className="BacksideProject">
-                    <img className="BackSideTower" src={TowerOfHanoi} />
+              <div className="BacksideProject">
+                <img className="BackSideTower" src={TowerOfHanoi} />
 
-                    <div className="project-text">
-                      <div className="project-title">Tower of Hanoi</div>
-                      <div className="project-subtitle">
-                        Why is did this project and what i learned form
-                        itsdddddddWhy is did this project and what i learned
-                        form itsdddddddWhy is did this project and what i
-                        learned form itsdddddddWhy is did this project and what
-                      </div>
-                      <hr></hr>
-                      <div className="project-subtitle2">
-                        Why is did this project and what i learned form
-                        itsdddddddWhy is did this project and what i learned
-                      </div>
-                    </div>
-                    <nav className="navLink">
-                      <a href="">Github</a>
-                      <a className="break" href="">
-                        Deployed Site
-                      </a>{" "}
-                    </nav>
+                <div className="project-text">
+                  <div className="project-title">Tower of Hanoi</div>
+                  <div className="project-subtitle">
+                    Why is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned form
+                    itsdddddddWhy is did this project and what
                   </div>
-                </BackSide>
-              </React.Fragment>
+                  <hr></hr>
+                  <div className="project-subtitle2">
+                    Why is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned
+                  </div>
+                </div>
+                <nav className="navLink">
+                  <a href="">Github</a>
+                  <a className="break" href="">
+                    Deployed Site
+                  </a>{" "}
+                </nav>
+              </div>
             </Flippy>
           </div>
           <div class="projects projectGovernmentFundingAPI">
@@ -93,40 +81,29 @@ class App extends Component {
               flipDirection={"vertical"}
               style={FlippyStyle}
             >
-              <React.Fragment>
-                <FrontSide>
-                  <h1 className="projectName">Google Calendar</h1>
-                  <div className="FrontSideCalendar"></div>{" "}
-                  <h1 className="projectDescriptionFront">
-                    A mock of the Google Calendar containing an API
-                  </h1>
-                </FrontSide>
-                <BackSide>
-                  <div className="BacksideProject">
-                    <img className="BackSideTower" src={calendar} />
-                    <div className="project-text">
-                      <div className="project-title">Tower of Hanoi</div>
-                      <div className="project-subtitle">
-                        Why is did this project and what i learned form
-                        itsdddddddWhy is did this project and what i learned
-                        form itsdddddddWhy is did this project and what i
-                        learned form itsdddddddWhy is did this project and what
-                      </div>
-                      <hr></hr>
-                      <div className="project-subtitle2">
-                        Why is did this project and what i learned form
-                        itsdddddddWhy is did this project and what i learned
-                      </div>
-                    </div>
-                    <nav className="navLink">
-                      <a href="">Github</a>
-                      <a className="break" href="">
-                        Deployed Site
-                      </a>{" "}
-                    </nav>
+              <div className="BacksideProject">
+                <img className="BackSideTower" src={calendar} />
+                <div className="project-text">
+                  <div className="project-title">Tower of Hanoi</div>
+                  <div className="project-subtitle">
+                    Why is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned form
+                    itsdddddddWhy is did this project and what
                   </div>
-                </BackSide>
-              </React.Fragment>
+                  <hr></hr>
+                  <div className="project-subtitle2">
+                    Why is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned
+                  </div>
+                </div>
+                <nav className="navLink">
+                  <a href="">Github</a>
+                  <a className="break" href="">
+                    Deployed Site
+                  </a>{" "}
+                </nav>
+              </div>
             </Flippy>
           </div>
           <div class="projects projectCoTripper">
@@ -135,43 +112,30 @@ class App extends Component {
               flipDirection={"vertical"}
               style={FlippyStyle}
             >
-              <React.Fragment>
-                <FrontSide>
-                  <h1 className="projectName">Government Funding API</h1>
+              <div className="BacksideProject">
+                <img className="BackSideTower" src={gov} />
 
-                  <div className="FrontSideGov"></div>
-                  <h1 className="projectDescriptionFront">
-                    A MERN Stack project fetching data about Government Funding
-                    towards States and respected contractors
-                  </h1>
-                </FrontSide>
-                <BackSide>
-                  <div className="BacksideProject">
-                    <img className="BackSideTower" src={gov} />
-
-                    <div className="project-text">
-                      <div className="project-title">Tower of Hanoi</div>
-                      <div className="project-subtitle">
-                        Why is did this project and what i learned form
-                        itsdddddddWhy is did this project and what i learned
-                        form itsdddddddWhy is did this project and what i
-                        learned form itsdddddddWhy is did this project and what
-                      </div>
-                      <hr></hr>
-                      <div className="project-subtitle2">
-                        Why is did this project and what i learned form
-                        itsdddddddWhy is did this project and what i learned
-                      </div>
-                    </div>
-                    <nav className="navLink">
-                      <a href="">Github</a>
-                      <a className="break" href="">
-                        Deployed Site
-                      </a>{" "}
-                    </nav>
+                <div className="project-text">
+                  <div className="project-title">Tower of Hanoi</div>
+                  <div className="project-subtitle">
+                    Why is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned form
+                    itsdddddddWhy is did this project and what
                   </div>
-                </BackSide>
-              </React.Fragment>
+                  <hr></hr>
+                  <div className="project-subtitle2">
+                    Why is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned
+                  </div>
+                </div>
+                <nav className="navLink">
+                  <a href="">Github</a>
+                  <a className="break" href="">
+                    Deployed Site
+                  </a>{" "}
+                </nav>
+              </div>
             </Flippy>
           </div>
           <div class="projects projectCalaendarMern">
@@ -180,42 +144,30 @@ class App extends Component {
               flipDirection={"vertical"}
               style={FlippyStyle}
             >
-              <React.Fragment>
-                <FrontSide>
-                  <h1 className="projectName">CoTripper</h1>
+              <div className="BacksideProject">
+                <img className="BackSideTower" src={Tripper} />
 
-                  <div className="FrontSideTrip"></div>
-                  <h1 className="projectDescriptionFront">
-                    A Client group project with Storybook,Django,and React
-                  </h1>
-                </FrontSide>
-                <BackSide>
-                  <div className="BacksideProject">
-                    <img className="BackSideTower" src={Tripper} />
-
-                    <div className="project-text">
-                      <div className="project-title">Tower of Hanoi</div>
-                      <div className="project-subtitle">
-                        Why is did this project and what i learned form
-                        itsdddddddWhy is did this project and what i learned
-                        form itsdddddddWhy is did this project and what i
-                        learned form itsdddddddWhy is did this project and what
-                      </div>
-                      <hr></hr>
-                      <div className="project-subtitle2">
-                        Why is did this project and what i learned form
-                        itsdddddddWhy is did this project and what i learned
-                      </div>
-                    </div>
-                    <nav className="navLink">
-                      <a href="">Github</a>
-                      <a className="break" href="">
-                        Deployed Site
-                      </a>{" "}
-                    </nav>
+                <div className="project-text">
+                  <div className="project-title">Tower of Hanoi</div>
+                  <div className="project-subtitle">
+                    Why is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned form
+                    itsdddddddWhy is did this project and what
                   </div>
-                </BackSide>
-              </React.Fragment>
+                  <hr></hr>
+                  <div className="project-subtitle2">
+                    Why is did this project and what i learned form
+                    itsdddddddWhy is did this project and what i learned
+                  </div>
+                </div>
+                <nav className="navLink">
+                  <a href="">Github</a>
+                  <a className="break" href="">
+                    Deployed Site
+                  </a>{" "}
+                </nav>
+              </div>
             </Flippy>
           </div>
         </div>
