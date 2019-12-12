@@ -55,22 +55,16 @@ class App extends Component {
                 <div className="project-text">
                   <div className="project-title">Tower of Hanoi</div>
                   <div className="project-subtitle">
-                    Why is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned form
-                    itsdddddddWhy is did this project and what
-                  </div>
-                  <hr></hr>
-                  <div className="project-subtitle2">
-                    Why is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned
+                    This was the first project I did at General Assembly that is
+                    a front-end game. I used javascript, CSS3, and HTML5 to make
+                    this game work
                   </div>
                 </div>
                 <nav className="navLink">
                   <a href="">Github</a>
                   <a className="break" href="">
                     Deployed Site
-                  </a>{" "}
+                  </a>
                 </nav>
               </div>
             </Flippy>
@@ -84,17 +78,12 @@ class App extends Component {
               <div className="BacksideProject">
                 <img className="BackSideTower" src={calendar} />
                 <div className="project-text">
-                  <div className="project-title">Tower of Hanoi</div>
+                  <div className="project-title">Google calendar Mock</div>
                   <div className="project-subtitle">
-                    Why is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned form
-                    itsdddddddWhy is did this project and what
-                  </div>
-                  <hr></hr>
-                  <div className="project-subtitle2">
-                    Why is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned
+                    My third project at a coding bootcamp covering the entire
+                    MERN Stack. This calendar fetches from a third party API in
+                    the Backend and creates a selected dataset and the Frontend
+                    gets that information by using React
                   </div>
                 </div>
                 <nav className="navLink">
@@ -116,17 +105,13 @@ class App extends Component {
                 <img className="BackSideTower" src={gov} />
 
                 <div className="project-text">
-                  <div className="project-title">Tower of Hanoi</div>
+                  <div className="project-title">Government Funding API</div>
                   <div className="project-subtitle">
-                    Why is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned form
-                    itsdddddddWhy is did this project and what
-                  </div>
-                  <hr></hr>
-                  <div className="project-subtitle2">
-                    Why is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned
+                    A project on government funding towards States and
+                    Contractors. Fetched all data from an API and used
+                    Mongoose/express to create full CRUD functionality with the
+                    backend and used React to fetch data from a host I created
+                    that filters data from the orginal API.
                   </div>
                 </div>
                 <nav className="navLink">
@@ -150,15 +135,9 @@ class App extends Component {
                 <div className="project-text">
                   <div className="project-title">Tower of Hanoi</div>
                   <div className="project-subtitle">
-                    Why is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned form
-                    itsdddddddWhy is did this project and what
-                  </div>
-                  <hr></hr>
-                  <div className="project-subtitle2">
-                    Why is did this project and what i learned form
-                    itsdddddddWhy is did this project and what i learned
+                    This was an agile/kanban project plan with a team of 24 plus
+                    people. My part focused on Frontend work with React and
+                    using routers to navigate throughout the entire website.
                   </div>
                 </div>
                 <nav className="navLink">

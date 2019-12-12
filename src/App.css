@@ -17,26 +17,36 @@ ul {
 }
 .projectDescriptionAbout {
   display: flex;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: blueviolet;
+  background-color: lightblue;
   margin-right: 20px;
   margin-left: 39%;
   height: 60vh;
-  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
+  box-shadow: 0 100px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
   font-size: 25px;
+  margin-top: 10%;
 }
-.ProjectsContainerAbout {
-  /* background-color: blue;
+.ProjectsContainerAboutMe {
+  background-color: tan;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 20vh; */
+  min-height: 100vh;
+}
+.about {
+  background-color: red;
+  position: absolute;
+  top: 23%;
+  left: 6%;
+
+  width: max-content;
+  height: max-content;
+  font-size: 30px;
 }
 .NavBarContainer {
   position: fixed;
@@ -46,7 +56,6 @@ ul {
 }
 .projectName {
   font-size: 30px;
-  /* margin-top: -7px; */
 }
 .projectDescriptionFront {
   position: relative;
@@ -54,7 +63,7 @@ ul {
 }
 
 .projects {
-  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
+  box-shadow: 0px 2px 13px 0px;
 }
 .projectCoTripper {
   grid-row: 3;
@@ -110,7 +119,7 @@ ul {
 }
 .BackSideTower {
   width: 50%;
-  height: 30vh;
+
   position: absolute;
   left: 107%;
   transform: translate(-120%, -60%);
@@ -133,7 +142,7 @@ ul {
   -webkit-font-smoothing: antialiased;
 }
 .project-subtitle {
-  font-size: 18px;
+  font-size: 27px;
   font-weight: 300;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -141,15 +150,7 @@ ul {
   margin-left: 20px;
   margin-right: 10px;
 }
-.project-subtitle2 {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  text-transform: none;
-  margin-left: 20px;
-  margin-right: 10px;
-}
+
 p {
   display: block;
   margin-block-start: 1em;
@@ -205,10 +206,37 @@ h1 {
   margin-left: 28%;
   margin-top: 20%;
 }
+li {
+  font-size: 23px;
+}
 .br {
   margin-left: 50px;
 }
+.tech {
+  font-size: 20px;
+}
+@media screen and (max-width: 1400px) {
+  .project-subtitle {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .project-subtitle {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  li {
+    font-size: 20px;
+  }
+  .project-subtitle {
+    font-size: 21px;
+  }
+}
 @media screen and (max-width: 1000px) {
+  .project-subtitle {
+    font-size: 25px;
+  }
   .navLinks {
     margin-right: 20px;
     font-size: 23px;
@@ -248,16 +276,61 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
   }
-}
-@media screen and (max-width: 500px) {
-  .project-subtitle,
-  .project-subtitle2 {
-    font-size: 15px;
+  li {
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 910px) {
+  .project-subtitle {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 910px) {
+  li {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 780px) {
   .project-subtitle,
   .project-subtitle2 {
-    font-size: 13px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .project-subtitle,
+  .project-subtitle2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .BackSideTower {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    transform: translate(-107%, -89%);
+    padding: 10px;
+  }
+  .project-title {
+    display: none;
+  }
+  .project-text {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+  }
+  li {
+    font-size: 16px;
+  }
+  .project-subtitle {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 502px) {
+  .project-subtitle {
+    font-size: 20px;
   }
 }
