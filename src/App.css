@@ -374,4 +374,10 @@ li {
   .project-subtitle {
     font-size: 17px;
   }
+  .projectDescriptionAbout {
+    font-size: 15px;
+  }
+  .rightNow {
+    font-size: 15px;
+  }
 }
