@@ -36,7 +36,10 @@ ul {
   position: relative;
   top: 90%;
 }
-
+.flippy-container * {
+  box-sizing: border-box;
+  color: floralwhite;
+}
 .projects {
   box-shadow: 0px 2px 13px 0px;
 }
