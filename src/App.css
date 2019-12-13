@@ -380,4 +380,10 @@ li {
   .rightNow {
     font-size: 15px;
   }
+  .firstHalf {
+    left: -20%;
+  }
+  .secoundHalf {
+    left: 20%;
+  }
 }
