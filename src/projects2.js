@@ -16,29 +16,6 @@ const FlippyStyle = {
 };
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isFlipped: false
-    };
-    // function myFunction(x) {
-    //   if (x.matches) {
-    //     alert("a");
-    //   } else {
-    //     alert("B");
-    //   }
-    // }
-
-    // var x = window.matchMedia("(max-width: 700px)");
-    // myFunction(x);
-    // x.addListener(myFunction);
-    setInterval(() => {
-      this.setState({
-        isFlipped: !this.state.isFlipped
-      });
-    }, 3000);
-  }
-
   render() {
     return (
       <div className="App">
@@ -53,7 +30,7 @@ class App extends Component {
                 <img className="BackSideTower" src={TowerOfHanoi} />
 
                 <div className="project-text">
-                  <div className="project-title">Tower of Hanoi</div>
+                  <h1 className="project-title">Tower of Hanoi</h1>
                   <div className="project-subtitle">
                     This was the first project I did at General Assembly that is
                     a front-end game. I used Javascript, CSS3, and HTML5 to make
@@ -62,8 +39,13 @@ class App extends Component {
                   </div>
                 </div>
                 <nav className="navLink">
-                  <a href="">Github</a>
-                  <a className="break" href="">
+                  <a href="https://github.com/nickmckenney/TowerOfHanoi">
+                    Github
+                  </a>
+                  <a
+                    className="break"
+                    href="https://nickmckenney.github.io/TowerOfHanoi/"
+                  >
                     Deployed Site
                   </a>
                 </nav>
@@ -79,7 +61,7 @@ class App extends Component {
               <div className="BacksideProject">
                 <img className="BackSideTower" src={calendar} />
                 <div className="project-text">
-                  <div className="project-title">Google calendar Mock</div>
+                  <h1 className="project-title">Google calendar Mock</h1>
                   <div className="project-subtitle">
                     My third project at a coding bootcamp covering the entire
                     MERN Stack. This calendar fetches from a third party API in
@@ -88,8 +70,13 @@ class App extends Component {
                   </div>
                 </div>
                 <nav className="navLink">
-                  <a href="">Github</a>
-                  <a className="break" href="">
+                  <a href="https://github.com/nickmckenney/calanderprojectMERN">
+                    Github
+                  </a>
+                  <a
+                    className="break"
+                    href="https://calanderproject.netlify.com/"
+                  >
                     Deployed Site
                   </a>{" "}
                 </nav>
@@ -106,7 +93,7 @@ class App extends Component {
                 <img className="BackSideTower" src={gov} />
 
                 <div className="project-text">
-                  <div className="project-title">Government Funding API</div>
+                  <h1 className="project-title">Government Funding API</h1>
                   <div className="project-subtitle">
                     A project on government funding towards States and
                     Contractors. Fetched all data from an API and used
@@ -116,8 +103,13 @@ class App extends Component {
                   </div>
                 </div>
                 <nav className="navLink">
-                  <a href="">Github</a>
-                  <a className="break" href="">
+                  <a href="https://github.com/nickmckenney/Building-a-JSON-API">
+                    Github
+                  </a>
+                  <a
+                    className="break"
+                    href="https://frontendapi-c6jjpsx8x.now.sh/"
+                  >
                     Deployed Site
                   </a>{" "}
                 </nav>
@@ -134,7 +126,7 @@ class App extends Component {
                 <img className="BackSideTower" src={Tripper} />
 
                 <div className="project-text">
-                  <div className="project-title">Tower of Hanoi</div>
+                  <h1 className="project-title">Tower of Hanoi</h1>
                   <div className="project-subtitle">
                     This was an agile/kanban project plan with a team of 24 plus
                     people. My part focused on Frontend work with React and
