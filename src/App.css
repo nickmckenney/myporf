@@ -1,5 +1,5 @@
 .App1 {
-  height: 200vh;
+  height: 150vh;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
@@ -25,6 +25,7 @@ ul {
 .NavBarContainer {
   position: fixed;
   height: 100vh;
+  height: 103vh;
   width: 37%;
   background-color: #5d5c61;
 }
@@ -117,24 +118,11 @@ ul {
   height: 60vh;
   box-shadow: 0 100px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
   font-size: 25px;
-  margin-top: 10%;
+  margin-top: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.ProjectContainerSkills {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: grey;
-  margin-right: 20px;
-  color: whitesmoke;
-  margin-left: 39%;
-  height: 60vh;
-  box-shadow: 0 100px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
-  font-size: 25px;
-  margin-top: 15%;
-}
 .project-title {
   font-weight: 400;
   font-size: 30px;
@@ -158,9 +146,31 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+.firstHalf {
+  position: relative;
+  top: 20%;
+  left: 14%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+.secoundHalf {
+  position: relative;
+  top: 10%;
+  left: -14%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
 .linksNav {
   width: 3vw;
   margin-left: 10px;
+}
+.rightNow {
+  position: relative;
+  top: -50%;
 }
 .break {
   margin-left: 50px;
@@ -230,6 +240,9 @@ li {
   li {
     font-size: 20px;
   }
+  .list {
+    font-size: 25px;
+  }
   .project-subtitle {
     font-size: 21px;
   }
@@ -249,6 +262,12 @@ li {
     position: relative;
     top: -40%;
   }
+  .ProjectContainerSkills {
+    margin-top: -30%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   .navBarLinkRoutes {
     display: flex;
     flex-direction: row;
@@ -272,19 +291,23 @@ li {
   }
   .projectDescriptionAbout {
     margin: 0 auto;
-
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 40%;
     padding: 0px;
   }
   .ProjectsContainerAboutMe {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 19%;
+    margin-top: 10%;
     background-color: tomato;
     display: block;
   }
   li {
     font-size: 16px;
+  }
+  .list {
+    font-size: 20px;
   }
 }
 
@@ -296,6 +319,9 @@ li {
 @media screen and (max-width: 910px) {
   li {
     font-size: 18px;
+  }
+  .list {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 780px) {
