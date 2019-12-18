@@ -96,12 +96,12 @@ ul {
   transform: translate(-50%, -50%);
 }
 .BackSideTower {
-  width: 50%;
-
+  width: 51%;
   position: absolute;
   left: 107%;
   transform: translate(-120%, -60%);
   top: 40%;
+  border: 10px solid indianred;
 }
 
 .project-text {
@@ -134,7 +134,7 @@ ul {
   -webkit-font-smoothing: antialiased;
 }
 .project-subtitle {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 300;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -231,12 +231,12 @@ li {
 }
 @media screen and (max-width: 1400px) {
   .project-subtitle {
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 @media screen and (max-width: 1300px) {
   .project-subtitle {
-    /* font-size: 23px; */
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -247,7 +247,7 @@ li {
     font-size: 25px;
   }
   .project-subtitle {
-    font-size: 19px;
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 1000px) {

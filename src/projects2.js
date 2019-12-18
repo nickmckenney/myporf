@@ -32,10 +32,10 @@ class App extends Component {
                 <div className="project-text">
                   <h1 className="project-title">Tower of Hanoi</h1>
                   <div className="project-subtitle">
-                    This was the first project I did at General Assembly that is
-                    a front-end game. I used Javascript, CSS3, and HTML5 to make
-                    this game work. Game logic is exactly like Tower of Hanoi.
-                    This is a DOM based game and only used DOM manipulation
+                    First project at programming bootcamp. Used Javascript,
+                    CSS3, and HTML5 to make this game work. Game logic is
+                    exactly like Tower of Hanoi. This is a DOM based game and
+                    only used DOM manipulation
                   </div>
                 </div>
                 <nav className="navLink">
@@ -95,11 +95,10 @@ class App extends Component {
                 <div className="project-text">
                   <h1 className="project-title">Government Funding API</h1>
                   <div className="project-subtitle">
-                    A project on government funding towards States and
-                    Contractors. Fetched all data from an API and used
-                    Mongoose/express to create full CRUD functionality with the
-                    backend and used React to fetch data from a host I created
-                    that filters data from the orginal API.
+                    Fetched all data from an API and used Mongoose/express to
+                    create full CRUD functionality with the backend and used
+                    React to fetch data from a host I created that filters data
+                    from the orginal API.
                   </div>
                 </div>
                 <nav className="navLink">
