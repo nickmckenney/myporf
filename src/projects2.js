@@ -126,7 +126,7 @@ class App extends Component {
                 <img className="BackSideTower" src={Tripper} />
 
                 <div className="project-text">
-                  <h1 className="project-title">Tower of Hanoi</h1>
+                  <h1 className="project-title">CoTripper</h1>
                   <div className="project-subtitle">
                     This was an agile/kanban project plan with a team of 24 plus
                     people. My part focused on Frontend work with React and
@@ -137,7 +137,7 @@ class App extends Component {
                   <a href="">Github</a>
                   <a className="break" href="">
                     Deployed Site
-                  </a>{" "}
+                  </a>
                 </nav>
               </div>
             </Flippy>
