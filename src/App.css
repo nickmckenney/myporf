@@ -7,6 +7,9 @@
     rgba(255, 113, 0, 1) 100%
   );
 }
+.imgResume {
+  z-index: 1000;
+}
 .ProjectsContainer {
   background-color: white;
   margin-left: 37%;

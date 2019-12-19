@@ -6,9 +6,7 @@ import linkedln from "./linkedin-brands.svg";
 import { Link } from "react-router-dom";
 
 function resume() {
-  window.open(
-    "https://www.linkedin.com/in/nicholaus-mckenney-668625180/detail/treasury/summary/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACrOj3ABN1xvMrDF2Zssvbl63MycZCY52XI%2C1574538602864)&section=summary&treasuryCount=2"
-  );
+  window.open("https://www.linkedin.com/in/nicholaus-mckenney-668625180/");
 }
 function NavBar() {
   return (
@@ -26,7 +24,7 @@ function NavBar() {
         <br></br>
 
         <a className="navLinks" href="" onClick={resume}>
-          Resume
+          Linkedln
         </a>
         <br></br>
         <a className="navLinks" href="/about">
