@@ -9,6 +9,9 @@ import calendar from "./calendar.png";
 import gov from "./gov.png";
 import Tripper from "./CoTripper.png";
 
+import NasaPic from "./nasaPic.png";
+import WordPress from "./wordPress.png";
+
 const FlippyStyle = {
   textAlign: "center",
   justifyContent: "center",
@@ -135,6 +138,33 @@ class App extends Component {
                 <nav className="navLink">
                   <a href="">Github</a>
                   <a className="break" href="">
+                    Deployed Site
+                  </a>
+                </nav>
+              </div>
+            </Flippy>
+          </div>
+          <div class="projects">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"vertical"}
+              style={FlippyStyle}
+            >
+              <div className="BacksideProject">
+                <img className="BackSideTower" src={NasaPic} />
+
+                <div className="project-text">
+                  <h1 className="project-title">Nasa Pictures</h1>
+                  <div className="project-subtitle">
+                    A Small project in progress that updates with a new picture
+                    every day. Uses the entire Mern Stack. This project was
+                    completed after General Assembly and it was intended as a
+                    refresher of creating full stack apps
+                  </div>
+                </div>
+                <nav className="navLink">
+                  <a href="">Github</a>
+                  <a className="break" href="https://nasapictures.netlify.com/">
                     Deployed Site
                   </a>
                 </nav>
