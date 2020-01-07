@@ -136,7 +136,9 @@ class App extends Component {
                   </div>
                 </div>
                 <nav className="navLink">
-                  <a href="">Github</a>
+                  <a href="https://github.com/CotripperPlatform/CoTrip">
+                    Github
+                  </a>
                   <a className="break" href="">
                     Deployed Site
                   </a>
