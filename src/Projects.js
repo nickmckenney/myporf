@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
-import Github from "./github-brands.svg";
-import View from "./eye-solid.svg";
 
 import "./App.css";
 import TowerOfHanoi from "./Tower.png";

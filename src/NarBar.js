@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
 import profilePic from "./profilepic.png";
-import github from "./github-brands.svg";
-import linkedln from "./linkedin-brands.svg";
+
 import { Link } from "react-router-dom";
 
 function resume() {
