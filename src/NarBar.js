@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function resume() {
   window.open(
-    "https://raw.githubusercontent.com/nickmckenney/myporf/master/src/resume.png"
+    "https://raw.githubusercontent.com/nickmckenney/myporf/master/src/resume1.png"
   );
 }
 function NavBar() {
