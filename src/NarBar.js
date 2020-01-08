@@ -6,7 +6,9 @@ import linkedln from "./linkedin-brands.svg";
 import { Link } from "react-router-dom";
 
 function resume() {
-  window.open("https://www.linkedin.com/in/nicholaus-mckenney-668625180/");
+  window.open(
+    "https://raw.githubusercontent.com/nickmckenney/myporf/master/src/resume.png"
+  );
 }
 function NavBar() {
   return (
@@ -24,7 +26,7 @@ function NavBar() {
         <br></br>
 
         <a className="navLinks" href="" onClick={resume}>
-          Linkedln
+          Resume
         </a>
         <br></br>
         <a className="navLinks" href="/about">
