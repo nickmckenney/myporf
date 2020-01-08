@@ -5,6 +5,11 @@
 .imgResume {
   z-index: 1000;
 }
+.currentSkills {
+  font-size: 29px;
+  margin: 0 auto;
+  position: relative;
+}
 .ProjectsContainer {
   background-color: white;
   margin-left: 37%;
@@ -19,7 +24,16 @@ ul {
   margin-bottom: 0px;
   margin-top: 5px;
 }
-
+.pictureSkills {
+  background-image: url("./skills.png");
+  background-size: cover;
+  background-repeat: round;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  margin-top: 7%;
+}
 .NavBarContainer {
   position: fixed;
   height: 100vh;
@@ -112,7 +126,7 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: grey;
+  background-color: black;
   margin-right: 20px;
   color: whitesmoke;
   margin-left: 39%;
@@ -261,7 +275,7 @@ li {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -65%;
+    top: -41%;
   }
   .ProjectContainerSkills {
     margin-top: -30%;
@@ -273,7 +287,7 @@ li {
     display: flex;
     flex-direction: row;
     position: relative;
-    top: -85%;
+    top: -68%;
     justify-content: space-evenly;
   }
 
@@ -325,6 +339,7 @@ li {
     font-size: 20px;
   }
 }
+
 @media screen and (max-width: 780px) {
   .project-subtitle,
   .project-subtitle2 {
@@ -373,7 +388,7 @@ li {
     font-size: 17px;
   }
   .projectDescriptionAbout {
-    font-size: 15px;
+    font-size: 14px;
   }
   .rightNow {
     font-size: 15px;
@@ -386,9 +401,15 @@ li {
     top: 9%;
   }
   .navBarLinkRoutes {
-    margin-top: 15px;
+    margin-top: 19px;
   }
   .intro {
-    top: -46%;
+    top: -41%;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .navBarLinkRoutes {
+    margin-top: 8px;
   }
 }

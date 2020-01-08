@@ -40,37 +40,11 @@ class App extends Component {
             my position I went directly to a coding bootcamp.
           </h1>
         </div>
+
         <div className="ProjectContainerSkills">
           <div className="projectDescriptionAbout">
-            Over the course of 3 months I was Able to learn
-            <div className="firstHalf">
-              <ul>
-                <li className="list">React</li>
-                <li className="list">Django</li>
-                <li className="list">Javascipt</li>
-                <li className="list">Python</li>
-                <li className="list">Mongoose</li>
-                <li className="list">PeeWee</li>
-                <li className="list">Storybook</li>
-                <li className="list">Wordpress</li>
-              </ul>
-            </div>
-            <div className="secoundHalf">
-              <ul>
-                <li className="list">Mongodb</li>
-                <li className="list">Node.js</li>
-                <li className="list">Express</li>
-                <li className="list">Git</li>
-                <li className="list">CSS3</li>
-                <li className="list">HTML5</li>
-                <li className="list">Adobe</li>
-                <li className="list">Ruby</li>
-              </ul>
-            </div>
-            <div className="rightNow">
-              Currently Im picking up Redux as well as learning web-socketing to
-              help further my React skills!
-            </div>
+            <h1 className="currentSkills">Current Skills</h1>
+            <div className="pictureSkills"></div>
           </div>
         </div>
       </div>
