@@ -163,8 +163,40 @@ class App extends Component {
                   </div>
                 </div>
                 <nav className="navLink">
-                  <a href="">Github</a>
+                  <a href="https://github.com/nickmckenney/nasaFrontend">
+                    Github
+                  </a>
                   <a className="break" href="https://nasapictures.netlify.com/">
+                    Deployed Site
+                  </a>
+                </nav>
+              </div>
+            </Flippy>
+          </div>
+          <div class="projects">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"vertical"}
+              style={FlippyStyle}
+            >
+              <div className="BacksideProject">
+                <img className="BackSideTower" src={WordPress} />
+
+                <div className="project-text">
+                  <h1 className="project-title">WordPress Amazing College</h1>
+                  <div className="project-subtitle">
+                    I followed a tutorial on Udemy to create a wordpress
+                    website. Please note the CSS is not from me. This was a code
+                    along for an introduction into PHP. In the future I will
+                    make a fresh WordPress Site
+                  </div>
+                </div>
+                <nav className="navLink">
+                  <a
+                    className="break"
+                    href="http://2fd17261.ngrok.io/
+"
+                  >
                     Deployed Site
                   </a>
                 </nav>

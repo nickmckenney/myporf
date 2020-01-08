@@ -1,7 +1,6 @@
 .App1 {
   height: 150vh;
   background: rgb(255, 255, 255);
-  background: linear-gradient(10deg, rgba(255, 255, 255, 1) 0%, blue 80%);
 }
 .imgResume {
   z-index: 1000;

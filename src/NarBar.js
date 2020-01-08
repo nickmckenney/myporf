@@ -20,7 +20,7 @@ function NavBar() {
       <hr></hr>
       <div className="navBarLinkRoutes">
         <a className="navLinks" href="/">
-          Home
+          Projects
         </a>
         <br></br>
 

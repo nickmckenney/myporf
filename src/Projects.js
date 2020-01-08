@@ -52,6 +52,7 @@ class App extends Component {
                 <li className="list">Mongoose</li>
                 <li className="list">PeeWee</li>
                 <li className="list">Storybook</li>
+                <li className="list">Wordpress</li>
               </ul>
             </div>
             <div className="secoundHalf">
@@ -62,7 +63,8 @@ class App extends Component {
                 <li className="list">Git</li>
                 <li className="list">CSS3</li>
                 <li className="list">HTML5</li>
-                <li className="list">Adobe XD</li>
+                <li className="list">Adobe</li>
+                <li className="list">Ruby</li>
               </ul>
             </div>
             <div className="rightNow">
