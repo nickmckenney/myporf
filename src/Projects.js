@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
-
 import "./App.css";
 import TowerOfHanoi from "./Tower.png";
 import calendar from "./calendar.png";

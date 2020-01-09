@@ -2,7 +2,6 @@
   height: 150vh;
   background: rgb(255, 255, 255);
 }
-
 .currentSkills {
   font-size: 29px;
   margin: 0 auto;
@@ -17,7 +16,6 @@
   padding-left: 3%;
   margin-right: 20px;
 }
-
 .pictureSkills {
   background-image: url("./skills.png");
   background-size: cover;
