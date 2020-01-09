@@ -22,7 +22,7 @@
   background-image: url("./skills.png");
   background-size: cover;
   background-repeat: round;
-  width: 50%;
+  width: 40%;
   height: 100%;
   margin: 0 auto;
   margin-bottom: 4%;
@@ -139,7 +139,7 @@
   -webkit-font-smoothing: antialiased;
 }
 .project-subtitle {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -161,7 +161,7 @@
   font-size: 20px;
   margin-left: 4%;
   position: absolute;
-  top: 90%;
+  top: 86%;
 }
 .navLinks {
   font-size: 35px;
@@ -207,17 +207,22 @@ h1 {
 }
 @media screen and (max-width: 1400px) {
   .project-subtitle {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 1300px) {
   .project-subtitle {
-    font-size: 23px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .project-subtitle {
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 1100px) {
   .project-subtitle {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 1000px) {
