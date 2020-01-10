@@ -1,11 +1,12 @@
 .App1 {
-  height: 150vh;
+  height: 110vh;
   background: rgb(255, 255, 255);
 }
 .currentSkills {
   font-size: 29px;
   margin: 0 auto;
   position: relative;
+  color: black;
 }
 .ProjectsContainer {
   background-color: white;
@@ -75,7 +76,7 @@
 }
 
 .flippy-container {
-  background-color: #7395ae;
+  background-color: darksalmon;
 }
 .FrontSideTower {
   background-image: url("./Tower.png");
@@ -111,24 +112,40 @@
   width: 45%;
   float: left;
 }
+.flex {
+  display: flex;
+  flex-direction: row;
+  grid-row-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nodejs {
+  background-color: tomato;
+}
 .projectDescriptionAbout {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: black;
+  background-color: white;
   margin-right: 20px;
-  color: whitesmoke;
+  color: unset;
   margin-left: 39%;
   height: 60vh;
   box-shadow: 0 100px 35px rgba(50, 50, 93, 0.1), 0 20px 15px;
   font-size: 25px;
   margin-top: 5%;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 26px;
+  border: dashed;
 }
-
+/* .ProjectsContainerAboutMe,
+.ProjectsContainerAbout {
+  margin-top: 20%;
+} */
 .project-title {
   font-weight: 400;
   font-size: 30px;
@@ -203,6 +220,10 @@ h1 {
 .tech {
   font-size: 20px;
 }
+.projectPhone {
+  height: 100px;
+  margin-top: 120px;
+}
 @media screen and (max-width: 1400px) {
   .project-subtitle {
     font-size: 24px;
@@ -225,8 +246,12 @@ h1 {
 }
 @media screen and (max-width: 1000px) {
   .project-subtitle {
-    font-size: 25px;
+    font-size: 20px;
   }
+  .App1 {
+    height: 60vh;
+  }
+
   .navLinks {
     margin-right: 20px;
     font-size: 23px;
@@ -236,7 +261,7 @@ h1 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -41%;
+    top: 1%;
   }
   .ProjectContainerSkills {
     margin-top: -30%;
@@ -257,7 +282,7 @@ h1 {
   }
   .NavBarContainer {
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     z-index: 20;
   }
   .ProjectsContainer {
@@ -269,8 +294,16 @@ h1 {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 40%;
+    margin-top: 20%;
     padding: 0px;
+    height: 45vh;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+  .projectPhone {
+    margin-top: 41%;
+    height: 20vh;
   }
   .ProjectsContainerAboutMe {
     margin-left: 10%;
@@ -291,6 +324,14 @@ h1 {
   .project-subtitle,
   .project-subtitle2 {
     font-size: 22px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 780px) and (-webkit-min-device-pixel-ratio: 1) {
+  .intro {
+    top: 7%;
+  }
+  .navBarLinkRoutes {
+    top: -62%;
   }
 }
 @media screen and (max-width: 660px) {
@@ -322,30 +363,56 @@ h1 {
     margin: 0 auto;
     font-size: 20px;
   }
+  .projectDescriptionAbout {
+    margin-top: 25%;
+  }
+  .projectPhone {
+    margin-top: 42%;
+  }
 }
 @media screen and (max-width: 502px) {
   .project-subtitle {
     font-size: 20px;
   }
 }
+
 @media screen and (max-width: 420px) {
   .project-subtitle {
     font-size: 17px;
   }
+
   .projectDescriptionAbout {
     font-size: 14px;
+    margin-top: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
-
+  .projectPhone {
+    margin-top: 44%;
+    height: 33vh;
+  }
   .navBarLinkRoutes {
     margin-top: 19px;
   }
   .intro {
-    top: -41%;
+    top: -34%;
     font-size: 16px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 414px) {
+  .intro {
+    top: 12%;
+    font-size: 17px;
+  }
   .navBarLinkRoutes {
-    margin-top: 8px;
+    margin-top: 14px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .navBarLinkRoutes {
+    margin-top: -8px;
+  }
+  .intro {
+    top: -3%;
   }
 }
