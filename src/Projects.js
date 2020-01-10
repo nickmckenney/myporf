@@ -33,10 +33,10 @@ class App extends Component {
         <h1>About Nick McKenney</h1>
         <div className="ProjectsContainerAboutMe">
           <h1 className="projectDescriptionAbout">
-            I recently gradudated highschool in 2019 and was driven to go
+            I recently graduated high school in 2019 and was driven to go
             directly into a career I love. I was Previously a Google Data Center
-            Techician repairing servers and learning things on the spot. After
-            my position I went directly to a coding bootcamp.
+            Technician repairing servers and learning things on the spot. After
+            my position, I went directly to a coding Bootcamp.
           </h1>
         </div>
 
