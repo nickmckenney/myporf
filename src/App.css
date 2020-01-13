@@ -51,16 +51,6 @@
 .projectCoTripper {
   grid-row: 3;
 }
-.projectTowerOfHanoi {
-  grid-row: 1;
-}
-
-.projectGovernmentFundingAPI {
-  grid-row: 2;
-}
-.projectCalaendarMern {
-  grid-row: 4;
-}
 .FrontSideTower,
 .FrontSideTrip,
 .FrontSideGov,

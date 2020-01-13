@@ -21,38 +21,6 @@ class App extends Component {
     return (
       <div className="App">
         <div className="ProjectsContainer">
-          <div class="projects projectTowerOfHanoi">
-            <Flippy
-              flipOnHover={true}
-              flipDirection={"vertical"}
-              style={FlippyStyle}
-            >
-              <div className="BacksideProject">
-                <img className="BackSideTower" src={TowerOfHanoi} />
-
-                <div className="project-text">
-                  <h1 className="project-title">Tower of Hanoi</h1>
-                  <div className="project-subtitle">
-                    First project at programming bootcamp. Used Javascript,
-                    CSS3, and HTML5 to make this game work. Game logic is
-                    exactly like Tower of Hanoi. This is a DOM based game and
-                    only used DOM manipulation
-                  </div>
-                </div>
-                <nav className="navLink">
-                  <a href="https://github.com/nickmckenney/TowerOfHanoi">
-                    Github
-                  </a>
-                  <a
-                    className="break"
-                    href="https://nickmckenney.github.io/TowerOfHanoi/"
-                  >
-                    Deployed Site
-                  </a>
-                </nav>
-              </div>
-            </Flippy>
-          </div>
           <div class="projects projectGovernmentFundingAPI">
             <Flippy
               flipOnHover={true}
@@ -196,6 +164,38 @@ class App extends Component {
                     className="break"
                     href="http://2fd17261.ngrok.io/
 "
+                  >
+                    Deployed Site
+                  </a>
+                </nav>
+              </div>
+            </Flippy>
+          </div>
+          <div class="projects projectTowerOfHanoi">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"vertical"}
+              style={FlippyStyle}
+            >
+              <div className="BacksideProject">
+                <img className="BackSideTower" src={TowerOfHanoi} />
+
+                <div className="project-text">
+                  <h1 className="project-title">Tower of Hanoi</h1>
+                  <div className="project-subtitle">
+                    First project at programming bootcamp. Used Javascript,
+                    CSS3, and HTML5 to make this game work. Game logic is
+                    exactly like Tower of Hanoi. This is a DOM based game and
+                    only used DOM manipulation
+                  </div>
+                </div>
+                <nav className="navLink">
+                  <a href="https://github.com/nickmckenney/TowerOfHanoi">
+                    Github
+                  </a>
+                  <a
+                    className="break"
+                    href="https://nickmckenney.github.io/TowerOfHanoi/"
                   >
                     Deployed Site
                   </a>
