@@ -9,6 +9,7 @@ import Tripper from "./CoTripper.png";
 
 import NasaPic from "./nasaPic.png";
 import WordPress from "./wordPress.png";
+import Ruby from "./RubyProject.png";
 
 const FlippyStyle = {
   textAlign: "center",
@@ -21,7 +22,37 @@ class App extends Component {
     return (
       <div className="App">
         <div className="ProjectsContainer">
-          <div class="projects projectGovernmentFundingAPI">
+          <div class="projects">
+            <Flippy
+              flipOnHover={true}
+              flipDirection={"vertical"}
+              style={FlippyStyle}
+            >
+              <div className="BacksideProject">
+                <img className="BackSideTower" src={Ruby} />
+                <div className="project-text">
+                  <h1 className="project-title">Blog Posts</h1>
+                  <div className="project-subtitle">
+                    First Ruby On Rails Project that uses bootstrap for styling
+                    and has CRUD functionality. Still in progress with this
+                    application. In the future CSS would be more organized
+                  </div>
+                </div>
+                <nav className="navLink">
+                  <a href="https://github.com/nickmckenney/RubyOnRailsProject1">
+                    Github
+                  </a>
+                  <a
+                    className="break"
+                    href="https://nicksblogpost.herokuapp.com/"
+                  >
+                    Deployed Site
+                  </a>{" "}
+                </nav>
+              </div>
+            </Flippy>
+          </div>
+          <div class="projects">
             <Flippy
               flipOnHover={true}
               flipDirection={"vertical"}
@@ -52,7 +83,7 @@ class App extends Component {
               </div>
             </Flippy>
           </div>
-          <div class="projects projectCoTripper">
+          <div class="projects">
             <Flippy
               flipOnHover={true}
               flipDirection={"vertical"}
@@ -104,9 +135,6 @@ class App extends Component {
                 <nav className="navLink">
                   <a href="https://github.com/CotripperPlatform/CoTrip">
                     Github
-                  </a>
-                  <a className="break" href="">
-                    Deployed Site
                   </a>
                 </nav>
               </div>
