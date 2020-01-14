@@ -35,7 +35,8 @@ class App extends Component {
                   <div className="project-subtitle">
                     First Ruby On Rails Project that uses bootstrap for styling
                     and has CRUD functionality. Still in progress with this
-                    application. In the future CSS would be more organized
+                    application. In the future CSS would be more organized. Used
+                    Udemy to learn how to make an app
                   </div>
                 </div>
                 <nav className="navLink">
@@ -181,10 +182,9 @@ class App extends Component {
                 <div className="project-text">
                   <h1 className="project-title">WordPress Amazing College</h1>
                   <div className="project-subtitle">
-                    I followed a tutorial on Udemy to create a wordpress
-                    website. Please note the CSS is not from me. This was a code
-                    along for an introduction into PHP. In the future I will
-                    make a fresh WordPress Site
+                    This was a code along for an introduction into PHP. I used
+                    Local by Flywheel in local. In the future I will make a
+                    fresh WordPress Site
                   </div>
                 </div>
                 <nav className="navLink">
